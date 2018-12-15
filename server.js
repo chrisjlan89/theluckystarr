@@ -24,8 +24,8 @@ const PORT = process.env.PORT || 8081;
 //     next();
 //   });
 
-// app.use(cors());
-// app.options('*', cors());
+ app.use(cors());
+ app.options('*', cors());
 
 //app.use(express.static("./client/build"));
 
@@ -49,7 +49,7 @@ app.use(express.static(path.join(__dirname, "client", "build")))
 // ...
 // Right before your app.listen(), add this:
  app.get("*", (req, res) => {  
-    res.sendFile(path.resolve(__dirname, "client",  "build", "index.html"));
+    res.sendFile(path.join(__dirname, "client",  "build", "/index.html"));
  });
 
 app.listen(PORT, function(){
