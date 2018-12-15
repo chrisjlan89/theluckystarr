@@ -40,7 +40,7 @@ app.use(routes)
 
 //app.use(express.static(path.join(__dirname, "client")))
 // ... other app.use middleware setups
-app.use(express.static(path.join(__dirname, "client", "public", "build")))
+app.use(express.static(path.join(__dirname, "client", "build")))
 
 
 
@@ -49,7 +49,7 @@ app.use(express.static(path.join(__dirname, "client", "public", "build")))
 // ...
 // Right before your app.listen(), add this:
  app.get("*", (req, res) => {  
-    res.sendFile(path.join(__dirname, "client", "public", "build", "index.html"));
+    res.sendFile(path.resolve(__dirname, "client",  "build", "index.html"));
  });
 
 app.listen(PORT, function(){
