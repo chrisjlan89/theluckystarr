@@ -38,7 +38,7 @@ app.use(bodyParser.json());
 // Add routes, both API and view
 app.use(routes)
 
-app.use(express.static(path.join(__dirname, "client")))
+//app.use(express.static(path.join(__dirname, "client")))
 // ... other app.use middleware setups
 app.use(express.static(path.join(__dirname, "client", "build")))
 
