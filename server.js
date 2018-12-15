@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 8081;
  app.use(cors());
  app.options('*', cors());
 
-//app.use(express.static("./client/build"));
+app.use(express.static("./client/build"));
 
 // Configure body parser for AJAX requests
 app.use(bodyParser.urlencoded({ extended:true }));
@@ -40,7 +40,7 @@ app.use(routes)
 
 //app.use(express.static(path.join(__dirname, "client")))
 // ... other app.use middleware setups
-app.use(express.static(path.join(__dirname, "client", "build")))
+//app.use(express.static(path.join(__dirname, "client", "build")))
 
 
 
@@ -49,7 +49,7 @@ app.use(express.static(path.join(__dirname, "client", "build")))
 // ...
 // Right before your app.listen(), add this:
  app.get("*", (req, res) => {  
-    res.sendFile(path.join(__dirname, "client",  "build", "/index.html"));
+    res.sendFile(path.join(__dirname, "client",  "build", "index.html"));
  });
 
 app.listen(PORT, function(){
