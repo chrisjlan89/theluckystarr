@@ -70,3 +70,18 @@ top : 2rem;
 }
 
  } */
+
+
+  
+  
+    
+    
+    .sidenav {
+
+          /* The image used */
+    background-image: url("../../Assets/full-bloom.png");
+    /* Full height */
+    /* Center and scale the image nicely */
+    background-position: center;
+       
+}

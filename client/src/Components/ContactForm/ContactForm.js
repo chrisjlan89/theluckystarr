@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API"
-import './contact.css'
+import './contact.css';
+import MediaQuery from "react-responsive";
 //import 'materialize-css/dist/css/materialize.min.css'
 
 import M from 'materialize-css';
@@ -36,7 +37,14 @@ class ContactForm extends Component  {
       console.log(l)
       console.log(instances)
       console.log( stuff + ' stuff linw 36')
-    //  var elem = document.querySelectorAll('.select-dropdown');
+      
+      var elems = document.querySelectorAll('.collapsible');
+      var instances = M.Collapsible.init(elems);
+
+      var elem = document.querySelectorAll('.modal ');
+      var insstance = M.Modal.init(elem);
+      // return instances = M.Modal.init(elems, options);
+      //  var elem = document.querySelectorAll('.select-dropdown');
    
     //  var instance = M.FormSelect.getInstance(elem);
 
@@ -125,13 +133,13 @@ class ContactForm extends Component  {
             
      }; 
 
-     modalTrigger = (instance) => {
+    //  modalTrigger = (instance) => {
       
-      console.log('modal trigger func')
+    //   console.log('modal trigger func')
     
-      instance.open();
+    //   instance.open();
       
-    }
+    // }
 
     
   handleFormSubmit = (event, instances) => {
@@ -149,7 +157,7 @@ class ContactForm extends Component  {
 
     else {
       event.preventDefault()
-      this.modalTrigger(instances)
+     // this.modalTrigger(instances)
     }
   };
 
@@ -177,8 +185,9 @@ class ContactForm extends Component  {
 
       
 <div>
-
+<MediaQuery minDeviceWidth={1224}> 
 <div className="row">
+<div className="u-margin-bottom-medium"></div>
 <div className="book">
                         <div className="book__form">
 
@@ -327,8 +336,8 @@ class ContactForm extends Component  {
                                     <button 
                                     onClick ={this.handleFormSubmit}
                                     class="btn btn--green" 
-                                    //data-target="modal1" 
-                                    //class="btn modal-trigger"
+                                    data-target="modal1" 
+                                    class="btn modal-trigger"
                                     >
                                    Hmmm</button>
                                 </div>
@@ -382,6 +391,212 @@ class ContactForm extends Component  {
     <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
     MAP
     </div>
+
+    </MediaQuery>
+
+    
+    <MediaQuery maxDeviceWidth={1224}>
+    
+<div className="u-margin-bottom-medium"></div>
+<div className = "row">
+<div className= "col s12">
+<div className="book">
+                        <div className="book__form">
+
+                        
+                            <form action="#" className="form">
+                                <div className="u-margin-bottom-smedium">
+                                    <h2 className="heading-secondary">
+                                        Send us an Email !
+                                    </h2>
+                                </div>
+
+                                <div className="form__group u-margin-bottom-medium">
+
+                                <div className=" u-margin-bottom-small">
+                                 <h5> What are you inquiring about ? </h5>
+                                </div>
+                                <form action="#">
+                                
+                                  <label>
+                                  <input 
+                                  type="radio"
+                                  //value={this.state.selectValue}  
+                                  onChange={this.handleInputChange} 
+                                  value="Rates"
+                                  name="selectValue"  />                                    
+                                   <span>Rates</span>
+                                  </label>
+                                
+                                
+                                  <label>
+                                  <input 
+                                  type="radio"
+                                  //value={this.state.selectValue} 
+                                  onChange={this.handleInputChange}
+                                  value="Events" 
+                                  name="selectValue"  
+                                   />
+                                    <span>Events</span>
+                                  </label>
+                                
+                                
+                                  <label>
+                                  <input 
+                                  type="radio"
+                                  //value={this.state.selectValue} 
+                                  onChange={this.handleInputChange} 
+                                  name="selectValue"  
+                                  value = "Hosting a Chartible Event"
+                                  />
+                                    <span>Chartible Hosting</span>
+                                  </label>
+                                
+                                
+                                  <label>
+                                    <input 
+                                    type="radio"
+                                    //value={this.state.selectValue} 
+                                    onChange={this.handleInputChange} 
+                                     name="selectValue" 
+                                     value = "General Question"
+                                     />
+                                    <span>Anything Else</span>
+                                  </label>
+                                
+                              </form>
+                            </div>
+
+                                  <div className ="input-field">
+                                    <input  
+                                    className="form__input validate" 
+                                  
+                                    id="disabled first_name" 
+                                    required="" 
+                                    name="first" 
+                                  //  disabled value = ""
+                                    value={this.state.first}
+                                    onChange={this.handleInputChange}
+                                    //id="first_name" 
+                                    type="text" 
+                                    
+
+
+
+                                    />
+                                    <label htmlFor="first_name" > First Name</label>
+                                    </div>
+                                   
+                                
+
+                                
+                                <div className ="input-field">
+                                    <input  
+                                    className="form__input validate"  
+                                    name="last" 
+                                    value={this.state.last}
+                                    onChange={this.handleInputChange}
+                                    id="last_name" 
+                                    type="text" 
+                                    className="validate"/>
+                                    <label htmlFor="last_name">Last Name</label>
+                                    </div>
+                                
+
+                                <div className="form__group">
+                                <div className ="input-field">
+                                    <input 
+
+                                    className="form__input validate"  
+                                    name="email" 
+                                    value={this.state.email}
+                                    onChange={this.handleInputChange}
+                                    id="email" 
+                                    type="email" 
+                                    />
+                                    <label htmlFor="email" >Email</label>
+                                    
+
+                                    </div>
+                                </div>
+
+
+                                <div className="form__group">
+                                <div className ="input-field">
+                                <textarea 
+                                name="message" 
+                                value={this.state.message}
+                                onChange={this.handleInputChange}
+                                id="textarea1" 
+                                class="form__input materialize-textarea">
+                                </textarea>
+                                <label htmlFor="textarea1">Textarea</label>
+                                    </div>
+                                </div>
+
+
+
+                              
+
+                            <div className="form__group">
+                                    <div class="form__radio-group">
+                                        
+                                    </div>
+
+
+                                    
+                                    <button 
+                                    onClick ={this.handleFormSubmit}
+                                    class="btn btn--green" 
+                                    data-target="modal1" 
+                                    class="btn modal-trigger"
+                                    >
+                                   Hmmm</button>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+                        </div>
+                         </div>
+                  <div className="row">
+                    <div className = "col s10">
+                         <div className ="section-faq">
+                         <h6 > Frequnetly Asked Question</h6>
+                        <ul class="collapsible">
+                        <li>
+                          <div class="collapsible-header"><i>Q : </i>How do I ?</div>
+                          <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                           <div class="collapsible-header"><i>Q : </i>Where do I ?</div>
+                          <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                        <li>
+                       
+                          <div class="collapsible-header"> <i>Q : </i>How do I ?</div>
+                          <div class="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                        </li>
+                      </ul>
+                             
+                   </div>
+                   </div>
+                   </div>
+
+                   <div className = "row">
+                   <div className = "col s10">
+                   <div className ="map-area">
+                   <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
+                   MAP
+                   </div>
+                   
+                   
+                   </div>
+                   
+                   </div>
+                   
+    </MediaQuery>
+
+
 
 </div>
 

@@ -13,11 +13,7 @@
     
   }
 
-  .book__form {
-      margin: 1.5rem;
-      width : 39%;
-     
-  }
+
 
   .section-faq {
       float: left;
@@ -167,3 +163,29 @@ input, textarea, select, button {
     
 }
 
+
+@media only screen and (max-width: 1200px) {
+    .book {
+        background-image: linear-gradient(105deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%, transparent 100%),url('../../Assets/img/gallery7.jpg');
+        background-size: 100%;
+        border-radius: 3px;
+        -webkit-box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
+        box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
+        width : 100%;
+         /* margin-left: 17% */
+         margin : 0 auto;
+         float: left;
+  }
+
+  .book__form {
+    margin: .2rem;
+    width : 95%;
+   
+}
+
+.section-faq {
+    float: none;
+}
+
+
+}

@@ -17,6 +17,7 @@
     "react-grid-gallery": "^0.5.3",
     "react-photo-gallery": "^6.2.1",
     "react-redux": "^5.0.7",
+    "react-responsive": "^6.0.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
@@ -28,7 +29,6 @@
   "scripts": {
     "start": "react-scripts start",
     "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
-    
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -40,7 +40,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "coffeescript": "^2.3.1",
-    "mocha": "^5.2.0",
-   
+    "mocha": "^5.2.0"
   }
 }

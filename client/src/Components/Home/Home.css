@@ -73,3 +73,26 @@
     transform: skewX(-6deg); 
     
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+ 
+    .review {
+        margin: 0 auto;
+        -webkit-box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+        box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+        background-color: rgba(255,255,255,0.6);
+        border-radius: 1.5rem;
+        /* padding: 6rem; */
+        /* padding-left: 9rem; */
+        font-size: 1.6rem;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+
+
+
+} 

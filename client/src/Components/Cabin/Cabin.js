@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API";
 import  GoogleLogin  from 'react-google-login';
 import {AUTH_CONFIG} from '../../Auth/authVars';
+import MediaQuery from "react-responsive";
 // import Auth from '../../Auth/auth';
 import  Gallery  from 'react-grid-gallery';
 // import Gallery  from 'react-photo-gallery' ;
@@ -149,10 +150,17 @@ import M from 'materialize-css';
     var options = {}
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems, options);
-   
+
 
     
   }
+
+
+
+
+  state = {
+   
+};
   
  
 
@@ -212,7 +220,7 @@ import M from 'materialize-css';
     
   <div>
 
- 
+  <MediaQuery minDeviceWidth={1224}>
      
     <div className="row">
     </div> 
@@ -243,6 +251,7 @@ import M from 'materialize-css';
         </div>
       </div>
 
+     
       <div className = "row"> 
       <div className="detail">
       <div className=" col s6">
@@ -321,6 +330,101 @@ import M from 'materialize-css';
       </div>
       </div>
       </div>
+      </MediaQuery>
+
+      
+      <MediaQuery maxWidth={1224}>
+        <div>You are sized like a tablet or mobile phone though</div>
+      </MediaQuery>
+   
+    <MediaQuery maxDeviceWidth={1224}>
+
+   
+    <div className = "row">
+    <div className="col s10 ">
+      <h2 className=""> Rediscover Nature in our beautiful and Historical Cabin</h2>
+    </div>
+  </div>
+  
+  <div className = "row">
+    <div className="col s10 ">
+      <h5>Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
+      </h5>
+    </div>
+    </div>
+
+  
+
+  <div className="gal-con">
+  <div className = "row">
+    <div className="col s10">
+    <Gallery images={IMAGES} />
+    { // <GridGallery images={IMAGES}/> 
+}
+    </div>
+
+  </div>
+</div>
+
+  
+  <div className="detail">
+  <div className = "row">
+  <div className=" col s10">
+  <div className="description">
+      <p className="paragraph">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+      </p>
+      <p className="paragraph">
+          Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+      </p>
+      <ul className="list">
+          <li className="list__item">Close to Chatanooga</li>
+          <li className="list__item">Breakfast included</li>
+          <li className="list__item">Other Thing Here</li>
+          <li className="list__item">Free wifi in all rooms</li>
+          <li className="list__item">Air conditioning and heating</li>
+          <li className="list__item">Pets allowed</li>
+          <li className="list__item">Can acccomdate large weddding parites</li>
+          <li className="list__item">Perfect for families</li>
+      </ul>
+      <div className="recommend">
+          <p className="recommend__count">
+             Note : Cabins are not included in the base price of weddings or events
+          </p>
+          
+      </div>
+      </div>
+  </div>
+  </div>
+  </div>
+
+<div className="row">
+<div className="col s10">
+  <figure className="user-reviews">
+  <figure className="venue-review">
+      <blockquote className="venue-review__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+      </blockquote>
+      <figcaption className="venue-review__user">
+          <img src={process.env.PUBLIC_URL + "/assets/img/gallery4.jpg"} alt="User 1" className="venue-review__photo" />
+          <div className="venue-review__user-box">
+              <p className="venue-review__user-name">Nicholas Cage</p>
+              <p className="venue-review__user-date">Jan 12th, 2017</p>
+          </div>
+          <div className="venue-review__rating">
+          <i className="fas fa-star"> </i>
+          <i className="fas fa-star"></i>
+          <i className="fas fa-star"></i>
+          <i className="fas fa-star"></i>
+          
+          </div>
+      </figcaption>
+  </figure>
+  </figure>
+  </div>
+  </div>
+    </MediaQuery>
+    
 
      
       <GoogleLogin

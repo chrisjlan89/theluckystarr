@@ -44,6 +44,8 @@ body {
 }
 
 
+
+
 p {
    
     display: block;
@@ -72,14 +74,17 @@ p {
 
 .detail {
     font-size: 1.2rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
+   
     display: flex;
     padding: 4.2rem;
     
     border-bottom:  1px solid #f4f2f2;
     /* font-family: 'Open Sans', sans-serif; */
+    /* display: -webkit-box;
+display: -ms-flexbox; */
+
 }
+
 
 
 .description {
@@ -87,13 +92,16 @@ p {
     -webkit-box-shadow: 0 1.8rem 4.8rem rgba(0,0,0,.06);
     box-shadow: 0 1.8rem 4.8rem rgba(0,0,0,.06);
     padding: 2.8rem;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 60%;
-    flex: 0 0 60%;
+   
     margin-right: 4.3rem;
     background-color: #faf9f9;
     border-radius: 10%;
+    /* -webkit-box-flex: 0;
+-ms-flex: 0 0 60%;
+flex: 0 0 60%; */
 }
+
+
 
 .centered {
     margin: 0 auto;
@@ -116,19 +124,24 @@ li {
     padding: 2.8rem 0;
     border-top: 1px solid #f4f2f2;
     border-bottom: 1px solid #f4f2f2;
-    display: -webkit-box;
+    /* display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */  
 }
 
+
+
 .list__item {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
+   
     margin-bottom: .7rem;
+    
+/* -webkit-box-flex: 0;
+-ms-flex: 0 0 50%;
+flex: 0 0 50%; */
 }
+
 
 ul, menu, dir {
     display: block;
@@ -154,24 +167,27 @@ ul, menu, dir {
 .recommend {
     font-size: 1.1rem;
     color: #999;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
+    /* display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center; */
 }
+
+
+
 
 .recommend__count {
     margin-right: auto;
 }
 
-
+/* 
 .recommend__friends {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-}
+} */
 
 .recommend__photo:not(:last-child) {
     margin-right: -1.8rem;
@@ -188,22 +204,24 @@ ul, menu, dir {
 
 
 .user-reviews {
-    -webkit-box-flex: 1;
+    
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        align-items: center;
+    
+
+}
+/* -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    
+    -ms-flex-align: center; */
 
-}
 
 
 .venue-review::before {
@@ -237,16 +255,15 @@ ul, menu, dir {
         z-index: 10;
         position: relative;
         border-left: none;
-        font-size: 1rem;
     }
     
 
     .venue-review__user {
-        display: -webkit-box;
+        /* display: -webkit-box;
         display: -ms-flexbox;
-        display: flex;
+        display: flex; */
         -webkit-box-align: center;
-        -ms-flex-align: center;
+        /* -ms-flex-align: center; */
         align-items: center;
     }
 
@@ -271,8 +288,4 @@ ul, menu, dir {
     .venue-review__user-date {
         font-size: .95rem;
         color: #999;
-    }
-
-    figure {
-         margin: 0 auto; 
     }
