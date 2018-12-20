@@ -1,5 +1,3 @@
-import index from "./client/node_modules/axios";
-
 const express = require ("express");
 const path = require ("path");
 var morgan = require('morgan')
@@ -53,7 +51,7 @@ app.use(express.static(path.join(__dirname, "build")))
 // ...
 // Right before your app.listen(), add this:
  app.get("*", (req, res) => {  
-    res.sendFile('index.html');
+    res.sendFile(path.join(__dirname, "client",  "build", "index.html"));
  });
 
 app.listen(PORT, function(){
