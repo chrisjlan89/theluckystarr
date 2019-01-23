@@ -358,7 +358,7 @@ import M from 'materialize-css';
 
       <div className="gal-con">
         <div className = "row">
-          <div className="col s6 offset-s3">
+          <div className="col s8 offset-s2">
           <Gallery images={IMAGES} />
           { // <GridGallery images={IMAGES}/> 
      }
@@ -389,7 +389,7 @@ import M from 'materialize-css';
           </ul>
           <div className="recommend">
               <p className="recommend__count">
-                 Note : Cabins are not included in the base price of weddings or events
+                 Note : Venue are not included in the base price of weddings or events
               </p>
               
           </div>
@@ -457,15 +457,19 @@ import M from 'materialize-css';
       <MediaQuery maxDeviceWidth={1224}>
 
       <div className = "row">
-        <div className="col s10 ">
-          <h2 className=""> Rediscover Nature in our beautiful and Historical Cabin</h2>
+        <div className="col s12">
+          <h2 className="">  Celebrate your special day with us</h2>
         </div>
       </div>
       
       <div className = "row">
-        <div className="col s10 ">
-          <h5>Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
-          </h5>
+        <div className="col s12">
+        <h5 className= "main-desc"> We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        </h5>
         </div>
         </div>
     
@@ -473,7 +477,7 @@ import M from 'materialize-css';
   
       <div className="gal-con">
       <div className = "row">
-        <div className="col s10">
+        <div className="col s12">
         <Gallery images={IMAGES} />
         { // <GridGallery images={IMAGES}/> 
    }
@@ -485,7 +489,7 @@ import M from 'materialize-css';
       
       <div className="detail">
       <div className = "row">
-      <div className=" col s10">
+      <div className=" col s12">
       <div className="description">
           <p className="paragraph">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
@@ -498,21 +502,79 @@ import M from 'materialize-css';
               <li className="list__item">Breakfast included</li>
               <li className="list__item">Other Thing Here</li>
               <li className="list__item">Free wifi in all rooms</li>
-              <li className="list__item">Air conditioning and heating</li>
-              <li className="list__item">Pets allowed</li>
-              <li className="list__item">Can acccomdate large weddding parites</li>
-              <li className="list__item">Perfect for families</li>
+              
           </ul>
+
+          
           <div className="recommend">
               <p className="recommend__count">
-                 Note : Cabins are not included in the base price of weddings or events
+                 Note : Venue are not included in the base price of weddings or events
               </p>
               
           </div>
           </div>
       </div>
       </div>
+      
       </div>
+        
+      <figure className="user-reviews">
+      <div className="row">
+<div className="col s10 offset-s1">
+         <figure className="venue-review">
+              <blockquote className="venue-review__text">
+              I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the escape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
+
+              </blockquote>
+              <figcaption className="venue-review__user">
+                  <img src={process.env.PUBLIC_URL + "/assets/img/venueReview/review1.jpg"} alt="User 1" className="venue-review__photo" />
+                  <div className="venue-review__user-box">
+                      <p className="venue-review__user-name">Elizabeth  
+                      </p>
+                      <p className="venue-review__user-name">Reinhardt-Crum 
+                      </p>
+                      
+                      <p className="venue-review__user-date">June 11th, 2016</p>
+                  </div>
+                  <div className="venue-review__rating">
+                  <i className="fas fa-star"> </i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  
+                  </div>
+              </figcaption>
+          </figure>
+          </div>
+          </div>
+   <div className="row">
+<div className="col s10 offset-s1">
+          <figure className="venue-review">
+              <blockquote className="venue-review__text">
+              Definitely a beautiful place for nearly all events, especially concerts or weddings! The landscape is gorgeous, there is plenty of space, the people are extremely courteous and professional, and there's even a stage with a high-quality sound system! I can't wait to visit again and I highly recommend this venue to anyone in need of a great gathering place for any event!
+
+              </blockquote>
+              <figcaption className="venue-review__user">
+                  <img src={process.env.PUBLIC_URL + "assets/img/venueReview/review2.jpg"} alt="User 1" className="venue-review__photo" />
+                  <div className="venue-review__user-box">
+                      <p className="venue-review__user-name">James Lowery</p>
+                      <p className="venue-review__user-date">December 27th, 2015</p>
+                  </div>
+                  <div className="venue-review__rating">
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
+                  </div>
+              </figcaption>
+          </figure>
+          </div>
+          </div>
+
+        
+          
+      </figure>
       </MediaQuery>
       
 

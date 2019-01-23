@@ -66,6 +66,7 @@
 }
 
    .heading-tertiary {
+       
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -90,6 +91,13 @@
         -webkit-transform: none;
         -ms-transform: none;
         transform: none;
+    }
+
+    .review__text {
+        -webkit-transform: none;
+        transform: none;
+        padding: 1.4rem;
+       
     }
 
 

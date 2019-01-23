@@ -1,4 +1,24 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
 
+.App {
+    text-align: start !important;
+}
+
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    color: #999;
+    background-image: url("../../Assets/full-bloom.png");
+    
+    
+    
+}
 
     .book {
         background-image: linear-gradient(105deg, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.9) 50%, transparent 50%),url('../../Assets/img/gallery7.jpg');
@@ -13,6 +33,14 @@
     
   }
 
+  .heading-secondary {
+    margin-left : 8%; 
+  }
+
+  h5 {
+      margin-left : 13%;
+  }
+
 
 
   .section-faq {
@@ -21,10 +49,11 @@
   
   .map-area{
       margin: 0 auto;
+      margin-left : 23%;
   }
 
   .heading-secondary {
-      text-align: center;
+      /* text-align: center; */
       padding-left : 2.8rem;
       padding-top: 2rem; 
 
@@ -49,6 +78,10 @@
     margin-bottom: 4rem !important;
 }
 
+.choice-selection{
+    margin-left: 5%;
+}
+
 
 
 .form__group:not(:last-child) {
@@ -68,6 +101,11 @@
     display: block;
     -webkit-transition: all .3s;
     transition: all .3s;
+}
+
+.input-field {
+    margin-left: 3%;
+    width: 40%;
 }
 
 .form__input:placeholder-shown+.form__label {
@@ -117,7 +155,7 @@ input, textarea, select, button {
 }
 
 .form__radio-group {
-    width: 49%;
+    width: 5%;
     display: inline-block;
 }
 
@@ -166,25 +204,41 @@ input, textarea, select, button {
 
 @media only screen and (max-width: 1200px) {
     .book {
-        background-image: linear-gradient(105deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%, transparent 100%),url('../../Assets/img/gallery7.jpg');
-        background-size: 100%;
+        background-image: linear-gradient(95deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.75) 100%, transparent 100%),url('../../Assets/img/gallery7.jpg');
+        background-size: 180%;
         border-radius: 3px;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
         box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
-        width : 100%;
-         /* margin-left: 17% */
+        width : 90%;
+         
          margin : 0 auto;
          float: left;
+         margin-left: 5%;
   }
 
+  .form__radio-group {
+    /* left: 42%; */
+    width : 1%;
+    display: inline-block; 
+}
+
   .book__form {
+
     margin: .2rem;
     width : 95%;
+    
    
 }
 
 .section-faq {
     float: none;
+    width: 80%;
+    margin-left: 6%;
+}
+
+.input-field {
+    margin-left: 10%;
+    width: 70%;
 }
 
 

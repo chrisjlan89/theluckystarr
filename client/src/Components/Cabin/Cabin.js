@@ -242,7 +242,7 @@ import M from 'materialize-css';
 
       <div className="gal-con">
         <div className = "row">
-          <div className="col s6 offset-s3">
+        <div className="col s8 offset-s2">
           <Gallery images={IMAGES} />
           { // <GridGallery images={IMAGES}/> 
      }
@@ -333,21 +333,23 @@ import M from 'materialize-css';
       </MediaQuery>
 
       
-      <MediaQuery maxWidth={1224}>
-        <div>You are sized like a tablet or mobile phone though</div>
-      </MediaQuery>
+      {
+      //   <MediaQuery maxWidth={1224}>
+      //   <div>You are sized like a tablet or mobile phone though</div>
+      // </MediaQuery>
+      }
    
-    <MediaQuery maxDeviceWidth={1224}>
+    <MediaQuery maxDeviceWidth={1224} >
 
-   
+   <div className = "bg">
     <div className = "row">
-    <div className="col s10 ">
+    <div className="col s12 ">
       <h2 className=""> Rediscover Nature in our beautiful and Historical Cabin</h2>
     </div>
   </div>
   
   <div className = "row">
-    <div className="col s10 ">
+    <div className="col s12 ">
       <h5>Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
       </h5>
     </div>
@@ -357,7 +359,7 @@ import M from 'materialize-css';
 
   <div className="gal-con">
   <div className = "row">
-    <div className="col s10">
+    <div className="col s12">
     <Gallery images={IMAGES} />
     { // <GridGallery images={IMAGES}/> 
 }
@@ -369,7 +371,7 @@ import M from 'materialize-css';
   
   <div className="detail">
   <div className = "row">
-  <div className=" col s10">
+  <div className=" col s12">
   <div className="description">
       <p className="paragraph">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
@@ -399,7 +401,7 @@ import M from 'materialize-css';
   </div>
 
 <div className="row">
-<div className="col s10">
+<div className="col s10 offset-s1">
   <figure className="user-reviews">
   <figure className="venue-review">
       <blockquote className="venue-review__text">
@@ -423,17 +425,18 @@ import M from 'materialize-css';
   </figure>
   </div>
   </div>
+  </div>
     </MediaQuery>
     
 
      
-      <GoogleLogin
-      clientId={AUTH_CONFIG.client_id}
-      buttonText="Login"
-      onSuccess={responseGoogle}
-      onFailure={responseGoogle}
-       />
-     
+     { // <GoogleLogin 
+      // clientId={AUTH_CONFIG.client_id}
+      // buttonText="Login"
+      // onSuccess={responseGoogle}
+      // onFailure={responseGoogle}
+      //  />
+     }
 </div>
        
     

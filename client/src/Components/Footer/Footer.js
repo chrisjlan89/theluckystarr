@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import '../Footer/Footer.css';
+//import '../Footer/Footer.css';
 
 import GoogleMapReact from 'google-map-react';
  
@@ -40,19 +40,19 @@ state = {
             </a>
             
             </div>
+{
+            // <div className="map-con">
 
-            <div className="map-con">
-
-          { //  <GoogleMapReact
+          //  <GoogleMapReact
            // bootstrapURLKeys={{ key: 'AIzaSyD-IBAbJcF67UQ0MPrg7zqhshyRWuJG1T0' }}
            // defaultCenter={this.state.center}
            // defaultZoom={this.state.zoom}
            // text={'L'}
           ///>
 
-          }
-          </div>
-
+          
+        //  </div>
+}
         <div className="numbers-con">
           <div className="first-number">
             <p className="name">Kellady : </p>

@@ -28,17 +28,10 @@ $bp-smallest: 31.25em; // 500px */
 font-family: 'Cinzel', serif;
 font-family: 'Cormorant Garamond', serif; */
 
-*,
-*::after,
-*::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 
 body {
     font-family: 'Cormorant Garamond', serif;
-    color: #999;
+    color: rgb(122, 122, 122) !important;
     background-image: url("../../Assets/full-bloom.png")
     
 }
@@ -65,12 +58,12 @@ p {
     transform: skewX(-12deg); 
     text-align-last: center;
 }
-/* html {
+ html {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-     font-size: 62.5%; 
+     /* font-size: 62.5%;  */
     
-} */
+} 
 
 .detail {
     font-size: 1.2rem;
@@ -80,8 +73,8 @@ p {
     
     border-bottom:  1px solid #f4f2f2;
     /* font-family: 'Open Sans', sans-serif; */
-    /* display: -webkit-box;
-display: -ms-flexbox; */
+    display: -webkit-box;
+display: -ms-flexbox; 
 
 }
 
@@ -96,9 +89,9 @@ display: -ms-flexbox; */
     margin-right: 4.3rem;
     background-color: #faf9f9;
     border-radius: 10%;
-    /* -webkit-box-flex: 0;
+     -webkit-box-flex: 0;
 -ms-flex: 0 0 60%;
-flex: 0 0 60%; */
+flex: 0 0 60%; 
 }
 
 
@@ -124,11 +117,11 @@ li {
     padding: 2.8rem 0;
     border-top: 1px solid #f4f2f2;
     border-bottom: 1px solid #f4f2f2;
-    /* display: -webkit-box;
+     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; */  
+    flex-wrap: wrap;   
 }
 
 
@@ -137,9 +130,9 @@ li {
    
     margin-bottom: .7rem;
     
-/* -webkit-box-flex: 0;
+-webkit-box-flex: 0;
 -ms-flex: 0 0 50%;
-flex: 0 0 50%; */
+flex: 0 0 50%; 
 }
 
 
@@ -168,11 +161,11 @@ ul, menu, dir {
     font-size: 1.1rem;
     color: #999;
     align-items: center;
-    /* display: -webkit-box;
+     display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
 -webkit-box-align: center;
--ms-flex-align: center; */
+-ms-flex-align: center; 
 }
 
 
@@ -182,12 +175,12 @@ display: flex;
     margin-right: auto;
 }
 
-/* 
+
 .recommend__friends {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-} */
+} 
 
 .recommend__photo:not(:last-child) {
     margin-right: -1.8rem;
@@ -208,6 +201,16 @@ display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         align-items: center;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
     
 
 }
@@ -222,6 +225,9 @@ display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center; */
 
+    figure {
+        margin : -20px;
+    }
 
 
 .venue-review::before {
@@ -259,11 +265,11 @@ display: flex;
     
 
     .venue-review__user {
-        /* display: -webkit-box;
+        display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; */
+        display: flex;
         -webkit-box-align: center;
-        /* -ms-flex-align: center; */
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -288,4 +294,36 @@ display: flex;
     .venue-review__user-date {
         font-size: .95rem;
         color: #999;
+    }
+
+    .venue-review__rating {
+        position: relative;
+    }
+
+    @media only screen and (max-width: 850px) {
+
+        body {
+            text-align: justify;
+        }
+        h2 {
+            text-align: center;
+        }
+        h5 {
+            text-align: justify;
+        }
+
+        .description {
+            margin: 0 auto;
+            width: 105%;
+        }
+
+        .main-desc {    
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        text-align-last: center;
+    }
+
+
+
     }

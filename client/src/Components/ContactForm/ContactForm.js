@@ -204,7 +204,7 @@ class ContactForm extends Component  {
                                 <div className=" u-margin-bottom-small">
                                  <h5> What are you inquiring about ? </h5>
                                 </div>
-                                <form action="#">
+                                <form className="choice-selection" action="#">
                                 
                                   <label>
                                   <input 
@@ -333,13 +333,17 @@ class ContactForm extends Component  {
 
 
                                     
-                                    <button 
-                                    onClick ={this.handleFormSubmit}
-                                    class="btn btn--green" 
-                                    data-target="modal1" 
-                                    class="btn modal-trigger"
-                                    >
-                                   Hmmm</button>
+                                    {this.state.selectValue  && this.state.email ?
+                                      <button 
+                                      onClick ={this.handleFormSubmit}
+                                      class="btn btn--green" 
+                                      data-target="modal1" 
+                                      class="btn modal-trigger"
+                                      >
+                                     Submit </button>
+                                    :
+                                    'Please Fill out the entire form to Submit'
+                                      }
                                 </div>
                             </form>
                         </div>
@@ -467,24 +471,18 @@ class ContactForm extends Component  {
                               </form>
                             </div>
 
-                                  <div className ="input-field">
-                                    <input  
-                                    className="form__input validate" 
                                   
-                                    id="disabled first_name" 
-                                    required="" 
+
+                                    <div className ="input-field">
+                                    <input  
+                                    className="form__input validate"  
                                     name="first" 
-                                  //  disabled value = ""
                                     value={this.state.first}
                                     onChange={this.handleInputChange}
-                                    //id="first_name" 
+                                    id="first_name" 
                                     type="text" 
-                                    
-
-
-
                                     />
-                                    <label htmlFor="first_name" > First Name</label>
+                                    <label htmlFor="first_name">First Name</label>
                                     </div>
                                    
                                 
@@ -498,7 +496,7 @@ class ContactForm extends Component  {
                                     onChange={this.handleInputChange}
                                     id="last_name" 
                                     type="text" 
-                                    className="validate"/>
+                                    />
                                     <label htmlFor="last_name">Last Name</label>
                                     </div>
                                 
@@ -544,14 +542,17 @@ class ContactForm extends Component  {
                                     </div>
 
 
-                                    
+                                    {this.state.selectValue  && this.state.email ?
                                     <button 
                                     onClick ={this.handleFormSubmit}
                                     class="btn btn--green" 
                                     data-target="modal1" 
                                     class="btn modal-trigger"
                                     >
-                                   Hmmm</button>
+                                   Submit </button>
+                                  :
+                                  'Please Fill out the entire form to Submit'
+                                    }
                                 </div>
                             </form>
                         </div>
@@ -559,7 +560,7 @@ class ContactForm extends Component  {
                         </div>
                          </div>
                   <div className="row">
-                    <div className = "col s10">
+                    <div className = "col s12">
                          <div className ="section-faq">
                          <h6 > Frequnetly Asked Question</h6>
                         <ul class="collapsible">
@@ -583,10 +584,14 @@ class ContactForm extends Component  {
                    </div>
 
                    <div className = "row">
-                   <div className = "col s10">
+                   <div className = "col s12">
                    <div className ="map-area">
-                   <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
-                   MAP
+                   
+                   { // <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
+                   
+
+  }
+                MAP
                    </div>
                    
                    

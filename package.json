@@ -15,6 +15,7 @@
     "react-responsive": "^6.0.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5"
+    
   },
   "proxy": "http://localhost:8081",
   "scripts": {
@@ -28,7 +29,7 @@
   },
   "browserslist": [
     ">0.2%",
-    "not dead",
+    
     "not ie <= 11",
     "not op_mini all"
   ]

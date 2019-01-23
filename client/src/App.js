@@ -35,7 +35,9 @@ class App extends Component {
   </Router>
 
     <footer>
-    <Footer/>
+    {
+     // <Footer/>
+    }
     </footer>
      
         

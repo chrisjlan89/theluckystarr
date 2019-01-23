@@ -39,12 +39,13 @@ top : 2rem;
 
  .custom-brand-text {
     position: absolute;
-    left :5rem;
+    text-align: center;
+    left :43%;
     color: rgb(122, 122, 122) !important;
     font-family: 'Great Vibes', cursive; 
     font-size: 2.8rem !important;
     font-stretch: expanded;
-    top: 1rem;
+    top: 5%;
  }
 
 
@@ -71,9 +72,15 @@ top : 2rem;
 
  } */
 
+ /* @media only screen and (min-width: 993px) {
+ 
+ nav a.sidenav-trigger {
+     display: initial
 
+     
+ }
   
-  
+} */
     
     
     .sidenav {
@@ -84,4 +91,66 @@ top : 2rem;
     /* Center and scale the image nicely */
     background-position: center;
        
+}
+
+/* nav .sidenav-trigger {
+    left :80%;
+    margin-top : 1.2%;
+} */
+
+.mob-nav {
+    /* margin-top : 3%; */
+    width: 40px;
+    
+}
+
+.social-container {
+      
+    float: left;
+    width: 3%;
+    margin-left: .5%;
+    margin-top : .15%;
+
+    
+    /* -webkit-shape-outside: circle(50% at 50% 50%);
+    shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%); */
+}
+
+/* .social-container {
+    width : 50px;
+} */
+
+
+@media only screen and (max-width: 850px) {
+    .social-container {
+      
+        float: right;
+        width: 7%;
+        margin-right: 2%;
+        /* margin-left: .5%; */
+        margin-top : 1.50%;
+
+        
+        /* -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%); */
+    }
+
+    .mob-nav {
+        margin-right: 1%;
+        /* margin-left: .5%; */
+        margin-top : 15%;
+    }
+    nav .sidenav-trigger {
+        float: left;
+        position: relative;
+        z-index: 1;
+        height: 56px;
+        /* margin: 0 18px; */
+    }
+
+
 }
