@@ -8,7 +8,7 @@ var nodemailer = require('nodemailer');
 const cors = require('cors');
 //const routes = require("./routes/API/routes");
 
-require('dotenv').config();
+//require('dotenv').config();
 
 const PORT = process.env.PORT || 8081;
 
