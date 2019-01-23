@@ -578,14 +578,14 @@ import M from 'materialize-css';
       </MediaQuery>
       
 
-     
-      <GoogleLogin
-      clientId={AUTH_CONFIG.client_id}
-      buttonText="Login"
-      onSuccess={responseGoogle}
-      onFailure={responseGoogle}
-       />
-     
+     {
+    //   <GoogleLogin
+    //   clientId={AUTH_CONFIG.client_id}
+    //   buttonText="Login"
+    //   onSuccess={responseGoogle}
+    //   onFailure={responseGoogle}
+    //    />
+     }
 </div>
        
     
