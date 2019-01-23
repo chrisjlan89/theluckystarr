@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 var nodemailer = require('nodemailer');
 const cors = require('cors');
-const routes = require("./routes/API/routes");
+//const routes = require("./routes/API/routes");
 
 require('dotenv').config();
 
@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 // Serve up static assets
 
 // Add routes, both API and view
-app.use(routes)
+//app.use(routes)
 
 //app.use(express.static(path.join(__dirname, "client")))
 // ... other app.use middleware setups

@@ -6,7 +6,7 @@ import MediaQuery from "react-responsive";
 
 import M from 'materialize-css';
 
-import Login from "../Login";
+//import Login from "../Login";
 
 let l = 'l'
 let stuff;
