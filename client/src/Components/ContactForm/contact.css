@@ -209,11 +209,18 @@ input, textarea, select, button {
         border-radius: 3px;
         -webkit-box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
         box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.2);
-        width : 90%;
-         
-         margin : 0 auto;
-         float: left;
-         margin-left: 5%;
+        width: 96%;
+        margin: 0 auto;
+        float: left;
+        margin-left: 0%;
+  }
+
+  .heading-secondary {
+      font-size: 2rem;
+  }
+
+  h5 {
+      text-align: center;
   }
 
   .form__radio-group {
@@ -225,7 +232,7 @@ input, textarea, select, button {
   .book__form {
 
     margin: .2rem;
-    width : 95%;
+    width : 96%;
     
    
 }
