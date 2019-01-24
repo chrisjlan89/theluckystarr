@@ -38,6 +38,7 @@ transporter.verify((error, success) => {
 // })
 
 router.post('/api/send', (req, res) => {
+  console.log('hit route insinde routes')
   console.log(req.body)
     var name = req.body.name
     var email = req.body.email
