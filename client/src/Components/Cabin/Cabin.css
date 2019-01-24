@@ -310,11 +310,17 @@ display: flex;
         }
         h5 {
             text-align: justify;
+            margin: 0 auto;
+        }
+
+        .cabin-desc {
+            margin: 0 auto;
+            
         }
 
         .description {
             margin: 0 auto;
-            width: 105%;
+            width: 100%;
         }
 
         .main-desc {    
@@ -322,6 +328,15 @@ display: flex;
         -ms-transform: none;
         transform: none;
         text-align-last: center;
+    }
+
+
+    .detail {
+        padding : .01rem !important;
+        margin: 0 auto;
+    }
+    .venue-review {
+        margin-top : 2%;
     }
 
 

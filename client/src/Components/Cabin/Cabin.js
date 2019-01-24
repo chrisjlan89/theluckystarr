@@ -350,8 +350,10 @@ import M from 'materialize-css';
   
   <div className = "row">
     <div className="col s12 ">
+    <div className='cabin-desc'>
       <h5>Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
       </h5>
+      </div>
     </div>
     </div>
 
