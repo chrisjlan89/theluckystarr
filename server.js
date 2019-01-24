@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 var nodemailer = require('nodemailer');
 const cors = require('cors');
-//const routes = require("./routes/API/routes");
+const routes = require("./routes/API/routes");
 
 //require('dotenv').config();
 
