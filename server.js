@@ -36,7 +36,7 @@ app.use(bodyParser.json());
 // Serve up static assets
 
 // Add routes, both API and view
-//app.use(routes)
+app.use(routes)
 
 //app.use(express.static(path.join(__dirname, "client")))
 // ... other app.use middleware setups

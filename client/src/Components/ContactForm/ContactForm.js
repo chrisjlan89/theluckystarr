@@ -259,10 +259,10 @@ class ContactForm extends Component  {
                                     <input  
                                     className="form__input validate" 
                                   
-                                    id="disabled first_name" 
+                                    id="first_name" 
                                     required="" 
                                     name="first" 
-                                  //  disabled value = ""
+                                  
                                     value={this.state.first}
                                     onChange={this.handleInputChange}
                                     //id="first_name" 
@@ -337,8 +337,8 @@ class ContactForm extends Component  {
                                       <button 
                                       onClick ={this.handleFormSubmit}
                                       class="btn btn--green" 
-                                      data-target="modal1" 
-                                      class="btn modal-trigger"
+                                      //data-target="modal1" 
+                                     // class="btn modal-trigger"
                                       >
                                      Submit </button>
                                     :
@@ -374,13 +374,15 @@ class ContactForm extends Component  {
                   
       
 
-                    <div id="modal1" className="modal">
+      <div id="modal1" className="modal">
     <div className="modal-content">
       <h4 className ="modal-title"></h4>
+      Thanks!
       <p className ="modal-text"></p>
+      You Have Sucessfully Sent a Message
     </div>
     <div className="modal-footer">
-      <a href="#!" className="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" className="modal-close waves-effect waves-green btn-flat">Ok.</a>
     </div>
     
   </div>
