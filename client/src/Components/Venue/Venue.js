@@ -344,11 +344,11 @@ import M from 'materialize-css';
         <h2 className="main-title centered"> Celebrate your special day with us</h2>
       </div>
       <div className="col s8 offset-s2">
-        <h5 className= "main-desc"> We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        <h5 className= "main-desc"> The Event Venue is approximately 15 acres of land with a 30’ x 60’ pavilion overlooking Echo Lake, 
+        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean to for cooking and serving under cover. 
+        The venue can be rented for any occasion: church or corporate picnics, weddings, receptions, class reunions, celestial events, or a charitable cause! 
+        Whatever your event is, The Lucky Starr Event Venue can be rented by the hour or event. 
+        Prices start at $250 for non-wedding events and weddings start at $800 for up to 100 people. 
         </h5>
       </div>
   
@@ -378,14 +378,13 @@ import M from 'materialize-css';
               Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
           </p>
           <ul className="list">
-              <li className="list__item">Close to Chatanooga</li>
-              <li className="list__item">Breakfast included</li>
-              <li className="list__item">Other Thing Here</li>
-              <li className="list__item">Free wifi in all rooms</li>
-              <li className="list__item">Air conditioning and heating</li>
-              <li className="list__item">Pets allowed</li>
-              <li className="list__item">Can acccomdate large weddding parites</li>
-              <li className="list__item">Perfect for families</li>
+             
+              <li className="list__item">Beatiful location overlooking the beautiful lake </li>
+              <li className="list__item">Available for weddins, corporate events and more</li>
+              <li className="list__item">Accomdates up to 100 guests on your special day</li>
+              <li className="list__item">Rates for events start at only $250</li>
+              <li className="list__item">Have the weddding of your dreams starting at only $800</li>
+              
           </ul>
           <div className="recommend">
               <p className="recommend__count">
@@ -464,11 +463,11 @@ import M from 'materialize-css';
       
       <div className = "row">
         <div className="col s12">
-        <h5 className= "main-desc"> We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
-        We promise that if you choose The Lucky Starr as your host for the day you;ve been drraming about your whole life that you will not be disapointed.
+        <h5 className= "main-desc"> The Event Venue is approximately 15 acres of land with a 30’ x 60’ pavilion overlooking Echo Lake, 
+        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean to for cooking and serving under cover. 
+        The venue can be rented for any occasion: church or corporate picnics, weddings, receptions, class reunions, celestial events, or a charitable cause! 
+        Whatever your event is, The Lucky Starr Event Venue can be rented by the hour or event. 
+        Prices start at $250 for non-wedding events and weddings start at $800 for up to 100 people. 
         </h5>
         </div>
         </div>
@@ -498,10 +497,11 @@ import M from 'materialize-css';
               Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
           </p>
           <ul className="list">
-              <li className="list__item">Close to Chatanooga</li>
-              <li className="list__item">Breakfast included</li>
-              <li className="list__item">Other Thing Here</li>
-              <li className="list__item">Free wifi in all rooms</li>
+          <li className="list__item">Beatiful location overlooking the beautiful lake </li>
+          <li className="list__item">Available for weddins, corporate events and more</li>
+          <li className="list__item">Accomdates up to 100 guests on your special day</li>
+          <li className="list__item">Rates for events start at only $250</li>
+          <li className="list__item">Have the weddding of your dreams starting at only $800</li>
               
           </ul>
 

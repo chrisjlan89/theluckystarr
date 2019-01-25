@@ -43,7 +43,7 @@ top : 2rem;
     left :43%;
     color: rgb(122, 122, 122) !important;
     font-family: 'Great Vibes', cursive; 
-    font-size: 2.8rem;
+    font-size: 4rem;
     font-stretch: expanded;
     top: 5%;
  }
@@ -145,7 +145,7 @@ top : 2rem;
         left: 43%;
         color: rgb(122, 122, 122) !important;
         font-family: 'Great Vibes', cursive;
-        font-size: 2.2rem !important;
+        font-size: 2.2rem;
         font-stretch: expanded;
         top: 5%;
     }

@@ -216,10 +216,11 @@ input, textarea, select, button {
   }
 
   .heading-secondary {
+      text-align: center;
       font-size: 2rem;
   }
 
-  h5 {
+  .inquiry_heading {
       text-align: center;
   }
 

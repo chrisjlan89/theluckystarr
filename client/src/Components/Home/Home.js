@@ -46,9 +46,10 @@ import M from 'materialize-css';
              
                 <div className ="review col s8 offset-m2">
                   <div className="review__text">
-                    <h3 className="heading-tertiary">The Venue</h3>
-                      <p>The Lucky Starr is an event venue for weddings, reunions, corporate picnics, or any other occasion you might want an outdoor facility. The big cabin and venue can be rented in a package deal. Our packages start at $250 for the venue and weddings start at $800. Please call us for more information and availability for your next event.
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet arcu eu condimentum euismod. Maecenas in quam vitae velit eleifend egestas vel in est. Nulla sed sapien laoreet, hendrerit mauris sit amet, varius diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac neque felis. Integer convallis sem at justo volutpat posuere. Aliquam pellentesque egestas consectetur. Donec ultricies quam non nisl rhoncus finibus. Maecenas fringilla consectetur eros eu facilisis.
+                    <h3 className="heading-tertiary">Our Story</h3>
+                      <p>The Lucky Starr in whole is over 600 acres of beautiful land, part mountainside and part farm land. We are nestled in the beautiful Sequatchie Valley between Dayton Mt. and the Cumberland Plateau. The Lucky Starr is in Bledsoe County Tennessee just 6 miles from the quaint town of Pikeville, TN and only 30 minutes to Fall Creek Falls State Park. 
+                      The farm was established in 1992 by Starr & Parky LaFayette who have spent years clearing land and building their dreams. They have rented cabins on the property since 1993, now only the Big Cabin. The Event Venue was built in 2014 by Kellady & Mike Bledsoe (Starr’s daughter) and continues to grow as they live in the Small Cabin and run the venue.
+                      
                       </p>
                   </div>
                 </div>
@@ -63,12 +64,12 @@ import M from 'materialize-css';
               <div class="row ">
                 <div className ="review col s8 offset-m2">
                   <div className="review__text">
-                    <h3 className="heading-tertiary">The Venue</h3>
-                      <p>The Lucky Starr is an event venue for weddings, reunions, corporate picnics, or any other occasion you might want an outdoor facility. The big cabin and venue can be rented in a package deal. Our packages start at $250 for the venue and weddings start at $800. Please call us for more information and availability for your next event.</p>
+                    <h3 className="heading-tertiary">Perfect for all occasions</h3>
+                      <p>If you are looking for a romantic weekend getaway in a rustic cabin or a venue for a wedding, a party, a class reunion, church picnic or any other occasion… The Lucky Starr can fill your needs! Contact us for availability!</p>
                   </div>
-                </div>
+
+            </div>                </div>
               </div>
-            </div>
      </div>
 
      </MediaQuery>
@@ -87,9 +88,11 @@ import M from 'materialize-css';
           
              <div className ="review col s10 offset-s1">
                <div className="review__text">
-                 <h3 className="heading-tertiary">The Venue</h3>
-                   <p>The Lucky Starr is an event venue for weddings, reunions, corporate picnics, or any other occasion you might want an outdoor facility. The big cabin and venue can be rented in a package deal. Our packages start at $250 for the venue and weddings start at $800. Please call us for more information and availability for your next event.
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi laoreet arcu eu condimentum euismod. Maecenas in quam vitae velit eleifend egestas vel in est. Nulla sed sapien laoreet, hendrerit mauris sit amet, varius diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac neque felis. Integer convallis sem at justo volutpat posuere. Aliquam pellentesque egestas consectetur. Donec ultricies quam non nisl rhoncus finibus. Maecenas fringilla consectetur eros eu facilisis.
+                 <h3 className="heading-tertiary">Our Story</h3>
+                   <p>The Lucky Starr in whole is over 600 acres of beautiful land, part mountainside and part farm land. We are nestled in the beautiful Sequatchie Valley between Dayton Mt. and the Cumberland Plateau. The Lucky Starr is in Bledsoe County Tennessee just 6 miles from the quaint town of Pikeville, TN and only 30 minutes to Fall Creek Falls State Park. 
+The farm was established in 1992 by Starr & Parky LaFayette who have spent years clearing land and building their dreams. They have rented cabins on the property since 1993, now only the Big Cabin. The Event Venue was built in 2014 by Kellady & Mike Bledsoe (Starr’s daughter) and continues to grow as they live in the Small Cabin and run the venue.
+
+                   
                    </p>
                </div>
              </div>
@@ -104,8 +107,9 @@ import M from 'materialize-css';
            <div class="row ">
              <div className ="review col s10 offset-s1">
                <div className="review__text">
-                 <h3 className="heading-tertiary">The Venue</h3>
-                   <p>The Lucky Starr is an event venue for weddings, reunions, corporate picnics, or any other occasion you might want an outdoor facility. The big cabin and venue can be rented in a package deal. Our packages start at $250 for the venue and weddings start at $800. Please call us for more information and availability for your next event.</p>
+                 <h3 className="heading-tertiary">Perfect for all occasions</h3>
+                   <p>If you are looking for a romantic weekend getaway in a rustic cabin or a venue for a wedding, a party, a class reunion, church picnic or any other occasion… The Lucky Starr can fill your needs! Contact us for availability!
+                   </p>
                </div>
              </div>
            </div>

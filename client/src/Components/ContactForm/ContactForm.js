@@ -208,7 +208,7 @@ class ContactForm extends Component  {
                                 <div className="form__group u-margin-bottom-medium">
 
                                 <div className=" u-margin-bottom-small">
-                                 <h5> What are you inquiring about ? </h5>
+                                 <h5 className ='inquiry_heading'> What are you inquiring about ? </h5>
                                 </div>
                                 <form className="choice-selection" action="#">
                                 
@@ -426,7 +426,7 @@ class ContactForm extends Component  {
                                 <div className="form__group u-margin-bottom-medium">
 
                                 <div className=" u-margin-bottom-small">
-                                 <h5> What are you inquiring about ? </h5>
+                                 <h5 className ='inquiry_heading'> What are you inquiring about ? </h5>
                                 </div>
                                 <form action="#">
                                 

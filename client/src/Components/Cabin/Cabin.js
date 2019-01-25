@@ -229,10 +229,14 @@ import M from 'materialize-css';
  
     <div className = "row">
       <div className="col s6 offset-s3">
-        <h2 className="main-title centered"> Rediscover Nature in our beautiful and Historical Cabin</h2>
+        <h2 className="main-title centered"> Rediscover Nature </h2>
+        <h3 className="sub-title centered">  Relax in our beautiful and rustic Cabin</h3>
       </div>
       <div className="col s8 offset-s2">
-        <h5 className= "main-desc">Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
+        <h5 className= "main-desc">Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
+cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Echo Lake. Our
+cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
         </h5>
       </div>
   
@@ -263,13 +267,13 @@ import M from 'materialize-css';
               Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
           </p>
           <ul className="list">
-              <li className="list__item">Close to Chatanooga</li>
-              <li className="list__item">Breakfast included</li>
-              <li className="list__item">Other Thing Here</li>
-              <li className="list__item">Free wifi in all rooms</li>
+              <li className="list__item">Downstairs unit rents for $100 for 2 guests per</li>
+              <li className="list__item">Upstairs unit rents for $125 per night</li>
+              <li className="list__item">Each rental includes $25 Cleaning fee</li>
+             
               <li className="list__item">Air conditioning and heating</li>
-              <li className="list__item">Pets allowed</li>
-              <li className="list__item">Can acccomdate large weddding parites</li>
+              <li className="list__item">Pets allowed with $40 fee</li>
+           
               <li className="list__item">Perfect for families</li>
           </ul>
           <div className="recommend">
@@ -344,14 +348,20 @@ import M from 'materialize-css';
    <div className = "bg">
     <div className = "row">
     <div className="col s12 ">
-      <h2 className=""> Rediscover Nature in our beautiful and Historical Cabin</h2>
+      <h2 className=""> Rediscover Nature</h2> 
+     
     </div>
   </div>
+
+
   
   <div className = "row">
     <div className="col s12 ">
     <div className='cabin-desc'>
-      <h5>Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such Cabin this Cabin that this is a cabin it has cabin history look at the beauty of nature and such
+      <h5>Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
+cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Echo Lake. Our
+cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
       </h5>
       </div>
     </div>
@@ -382,13 +392,13 @@ import M from 'materialize-css';
           Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
       </p>
       <ul className="list">
-          <li className="list__item">Close to Chatanooga</li>
-          <li className="list__item">Breakfast included</li>
-          <li className="list__item">Other Thing Here</li>
-          <li className="list__item">Free wifi in all rooms</li>
+          <li className="list__item">Downstairs unit rents for $100 for 2 guests per</li>
+          <li className="list__item">Upstairs unit rents for $125 for 2 guest</li>
+          <li className="list__item">Downstairs unit rents for $100 for 2 guests</li>
+          <li className="list__item">Each rental includes $25 Cleaning fee</li>
+          <li className="list__item">Each additional guest is $15 per night</li>
+          <li className="list__item">Pets allowed for one time $40 fee</li>
           <li className="list__item">Air conditioning and heating</li>
-          <li className="list__item">Pets allowed</li>
-          <li className="list__item">Can acccomdate large weddding parites</li>
           <li className="list__item">Perfect for families</li>
       </ul>
       <div className="recommend">
