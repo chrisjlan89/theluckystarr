@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import API from "../../utils/API"
 import './contact.css';
 import MediaQuery from "react-responsive";
+import MapIframe from '../../MAP/mapIframe';
 //import 'materialize-css/dist/css/materialize.min.css'
 
 import M from 'materialize-css';
@@ -25,9 +26,9 @@ document.addEventListener('DOMContentLoaded', function(stuff, instances) {
   
   
   
+
   M.AutoInit(elems);
 });
-
 
 class ContactForm extends Component  {
   
@@ -65,6 +66,17 @@ class ContactForm extends Component  {
     
     isNotSelectedBool : true,
     selectValue : "",
+    largeMap : {
+      width : '800',
+      height : '450'
+
+    },
+
+    smallMap : {
+      width : '385',
+      height : '200',
+
+    }
    
  
   };
@@ -183,7 +195,6 @@ class ContactForm extends Component  {
 
     render() {
 
-      const tweetersIframe = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6424214.836942619!2d-84.1311926038615!3d38.201092061236345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8860b01c951121ab%3A0x1cc545136f9fda86!2sLucky+Starr+Event+Venue!5e0!3m2!1sen!2sus!4v1543375745517" zoom="400m" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
       console.log("form");
       console.log(this.state);
     return (
@@ -243,7 +254,7 @@ class ContactForm extends Component  {
                                   name="selectValue"  
                                   value = "Hosting a Chartible Event"
                                   />
-                                    <span>Chartible Hosting</span>
+                                    <span>Charity</span>
                                   </label>
                                 
                                 
@@ -255,7 +266,7 @@ class ContactForm extends Component  {
                                      name="selectValue" 
                                      value = "General Question"
                                      />
-                                    <span>Anything Else</span>
+                                    <span>Other</span>
                                   </label>
                                 
                               </form>
@@ -356,7 +367,7 @@ class ContactForm extends Component  {
                         
                          </div>
                          <div className ="section-faq">
-                          <h6 > Frequnetly Asked Question</h6>
+                          <h6 > Frequently Asked Question</h6>
                          <ul class="collapsible">
                          <li>
                            <div class="collapsible-header"><i>Q : </i>How do I ?</div>
@@ -400,8 +411,8 @@ class ContactForm extends Component  {
 
     </div>
     <div className ="map-area">
-    <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
-    MAP
+   <MapIframe mapSize={this.state.largeMap}/>
+  
     </div>
 
     </MediaQuery>
@@ -461,7 +472,7 @@ class ContactForm extends Component  {
                                   name="selectValue"  
                                   value = "Hosting a Chartible Event"
                                   />
-                                    <span>Chartible Hosting</span>
+                                    <span>Charity</span>
                                   </label>
                                 
                                 
@@ -473,7 +484,7 @@ class ContactForm extends Component  {
                                      name="selectValue" 
                                      value = "General Question"
                                      />
-                                    <span>Anything Else</span>
+                                    <span>Other</span>
                                   </label>
                                 
                               </form>
@@ -570,7 +581,7 @@ class ContactForm extends Component  {
                   <div className="row">
                     <div className = "col s12">
                          <div className ="section-faq">
-                         <h6 > Frequnetly Asked Question</h6>
+                         <h6 > Frequently Asked Question</h6>
                         <ul class="collapsible">
                         <li>
                           <div class="collapsible-header"><i>Q : </i>How do I ?</div>
@@ -594,12 +605,9 @@ class ContactForm extends Component  {
                    <div className = "row">
                    <div className = "col s12">
                    <div className ="map-area">
-                   
-                   { // <div dangerouslySetInnerHTML={{ __html: tweetersIframe}}/>
-                   
 
-  }
-                MAP
+                   <MapIframe mapSize={this.state.smallMap}/>
+                 
                    </div>
                    
                    

@@ -218,6 +218,11 @@ input, textarea, select, button {
   .heading-secondary {
       text-align: center;
       font-size: 2rem;
+      text-align: center; 
+      padding-left: .01rem;
+      padding-top: .2rem;
+      margin-left: 0;
+
   }
 
   .inquiry_heading {
@@ -238,6 +243,12 @@ input, textarea, select, button {
    
 }
 
+.form__group:not(:last-child) {
+    text-align: center;
+    margin-right: 3%;
+    padding-right: 2%;
+}
+
 .section-faq {
     float: none;
     width: 80%;
@@ -247,6 +258,16 @@ input, textarea, select, button {
 .input-field {
     margin-left: 10%;
     width: 70%;
+}
+
+.map-area{
+    margin: 0 auto;
+    margin-left : 1%;
+}
+
+.form__radio-group {
+    width: 20%;
+
 }
 
 

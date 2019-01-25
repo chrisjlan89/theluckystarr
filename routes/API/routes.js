@@ -1,5 +1,6 @@
 const router = require("express").Router();
 var nodemailer = require('nodemailer');
+require('dotenv').config();
 
 //const emailController = require("../controllers/emailController");
 
@@ -8,8 +9,8 @@ let BASEURL = "https://photoslibrary.googleapis.com/v1/albums";
 var transport = {
   host: 'smtp.gmail.com',
   auth: {
-    user: "chrisj17@gmail.com",
-    pass: "magwitcher"
+    user: process.env.user,
+    pass: process.env.pass
   }
 }
 
