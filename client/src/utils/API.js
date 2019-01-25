@@ -35,10 +35,15 @@ let BASEURL = "https://photoslibrary.googleapis.com/v1/albums";
 
   sendEmail: function(emailData) {
     console.log(emailData, 'email data')
-    return axios.post('/api/send', emailData)
-  }
+    return axios.post('/api/send', emailData , {
+  }).then( 
+      (response) => { console.log(response) },
+      (error) => { console.log(error) }
+    );;
   }
 
+
+}
 
 
 
