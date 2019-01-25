@@ -99,18 +99,18 @@ class ContactForm extends Component  {
   //     }
   //  }
 
-  setBool = () => { if (this.state.selectValue) {
-    console.log('removing attr')
-    document.getElementsById("disabled").removeAttribute('disabled value');
-    console.log('callbacl')
-    console.log(this.state)
-    this.setState({
-      isNotSelectedBool : false
+  // setBool = () => { if (this.state.selectValue) {
+  //   console.log('removing attr')
+  //   document.getElementsById("disabled").removeAttribute('disabled value');
+  //   console.log('callbacl')
+  //   console.log(this.state)
+  //   this.setState({
+  //     isNotSelectedBool : false
      
-    });
+  //   });
    
-   }
-  }
+  //  }
+  // }
   
   handleInputChange = (event, setBool) => {
    
@@ -151,8 +151,14 @@ class ContactForm extends Component  {
         message: this.state.message,
         subject : this.state.selectValue
       })
+
+    
+
+
        
         .catch(err => console.log(err));
+
+        
     }
 
     else {
