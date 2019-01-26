@@ -49,7 +49,8 @@ router.post('/api/send', (req, res) => {
     let body =  ` From ${name}, \n Asking about : ${inquiry}\n\n${message}` 
     var mail = {
       from: email,
-      to: 'theluckystarrvenue@gmail.com',  //Change to email address that you want to receive messages on
+      to: 'theluckystarrvenue@gmail.com',
+              //Change to email address that you want to receive messages on
       subject: inquiry,
       text: body
     }
@@ -57,6 +58,7 @@ router.post('/api/send', (req, res) => {
     transporter.sendMail(mail, (err, data) => {
       if (err) {
         console.log('noooo')
+        console.log(err)
         res.json({
           msg: 'fail'
         })
