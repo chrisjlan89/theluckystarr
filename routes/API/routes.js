@@ -56,11 +56,14 @@ router.post('/api/send', (req, res) => {
   
     transporter.sendMail(mail, (err, data) => {
       if (err) {
+        console.log('noooo')
         res.json({
           msg: 'fail'
         })
       } else {
+        console.log('ssssss')
         res.json({
+         
           msg: 'success'
         })
       }

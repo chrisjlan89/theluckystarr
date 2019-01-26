@@ -33,17 +33,17 @@ document.addEventListener('DOMContentLoaded', function(stuff, instances) {
 class ContactForm extends Component  {
   
    componentDidMount(instances, stuff) {
-    
+      M.AutoInit();
     //  console.log('I was triggered during componentDidMount')
     //   console.log(l)
     //   console.log(instances)
     //   console.log( stuff + ' stuff linw 36')
       
-      var elems = document.querySelectorAll('.collapsible');
-      var instances = M.Collapsible.init(elems);
+      // var elems = document.querySelectorAll('.collapsible');
+      // var instances = M.Collapsible.init(elems);
 
-      var elem = document.querySelectorAll('.modal ');
-      var insstance = M.Modal.init(elem);
+      // var elem = document.querySelectorAll('.modal ');
+      // var insstance = M.Modal.init(elem);
       // return instances = M.Modal.init(elems, options);
       //  var elem = document.querySelectorAll('.select-dropdown');
    
