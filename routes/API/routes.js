@@ -46,14 +46,11 @@ router.post('/api/send', (req, res) => {
     let message = req.body.message
     let inquiry = req.body.subject
     let subject = `${name}, inquiring about ${inquiry}`
-    let body =  ` From ${name},   
-                  Asking about : ${inquiry}
-                  
-                  ${message}` 
+    let body =  ` From ${name}, \n Asking about : ${inquiry}\n\n${message}` 
     var mail = {
       from: email,
       to: 'theluckystarrvenue@gmail.com',  //Change to email address that you want to receive messages on
-      subject: content,
+      subject: inquiry,
       text: body
     }
   
