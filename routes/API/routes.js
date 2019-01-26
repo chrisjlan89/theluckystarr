@@ -9,8 +9,8 @@ let BASEURL = "https://photoslibrary.googleapis.com/v1/albums";
 var transport = {
   host: 'smtp.gmail.com',
   auth: {
-    user : "theluckystarrvenue@gmail.com",
-    pass  :"p1kevill3"
+    user: process.env.user,
+    pass: process.env.pass
   }
 }
 
