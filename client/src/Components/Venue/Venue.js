@@ -3,7 +3,7 @@ import API from "../../utils/API";
 import  GoogleLogin  from 'react-google-login';
 import {AUTH_CONFIG} from '../../Auth/authVars';
 import MediaQuery from "react-responsive";
-//mport Auth from '../../Auth/auth';
+
 import  Gallery  from 'react-grid-gallery';
 // import Gallery  from 'react-photo-gallery' ;
 import './Venue.css'
@@ -77,7 +77,7 @@ import M from 'materialize-css';
      thumbnailWidth: 144,
          thumbnailHeight: 174,
         
-         caption: "stuff"
+        
    },
    {
    
@@ -87,7 +87,7 @@ import M from 'materialize-css';
      thumbnailWidth: 320,
          thumbnailHeight: 174,
       
-         caption: "stuff"
+        
    },
    {
     
@@ -97,7 +97,7 @@ import M from 'materialize-css';
      thumbnailWidth: 320,
          thumbnailHeight: 174,
       
-         caption: "stuff"
+        
    },
    {
      src: process.env.PUBLIC_URL + "/assets/img/venue/venue4.jpg",
@@ -106,7 +106,7 @@ import M from 'materialize-css';
      thumbnailWidth: 320,
          thumbnailHeight: 174,
         
-         caption: "stuff"
+        
    },
     
 
@@ -119,7 +119,7 @@ import M from 'materialize-css';
      thumbnailWidth: 320,
          thumbnailHeight: 174,
        
-         caption: "stuff"
+        
 
     
    },
@@ -130,7 +130,7 @@ import M from 'materialize-css';
      thumbnailWidth: 320,
          thumbnailHeight: 174,
         
-         caption: "stuff"
+        
 
    },
    
@@ -141,7 +141,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
        
-        caption: "stuff"
+       
 
   },
    
@@ -154,7 +154,7 @@ import M from 'materialize-css';
     thumbnailWidth: 144,
         thumbnailHeight: 174,
        
-        caption: "stuff"
+       
   },
   {
   
@@ -164,7 +164,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
      
-        caption: "stuff"
+       
   },
   {
    
@@ -174,7 +174,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
      
-        caption: "stuff"
+       
   },
   {
     src: process.env.PUBLIC_URL + "/assets/img/venue/venue11.jpg",
@@ -183,7 +183,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
        
-        caption: "stuff"
+       
   },
    
 
@@ -196,7 +196,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
       
-        caption: "stuff"
+       
 
    
   },
@@ -207,7 +207,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
        
-        caption: "stuff"
+       
 
   },
   
@@ -218,7 +218,7 @@ import M from 'materialize-css';
    thumbnailWidth: 320,
        thumbnailHeight: 174,
       
-       caption: "stuff"
+      
 
  },
 
@@ -232,7 +232,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
        
-        caption: "stuff"
+       
   },
   {
   
@@ -242,7 +242,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
      
-        caption: "stuff"
+       
   },
   {
    
@@ -252,7 +252,7 @@ import M from 'materialize-css';
     thumbnailWidth: 320,
         thumbnailHeight: 174,
      
-        caption: "stuff"
+       
   },
  
 
@@ -265,7 +265,7 @@ import M from 'materialize-css';
  class Venue extends Component {
   componentDidMount() {
     
-    console.log('I was triggered during componentDidMount')
+    // console.log('I was triggered during componentDidMount')
     var options = {}
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems, options);
@@ -284,7 +284,7 @@ import M from 'materialize-css';
     //    var instances = M.Materialbox.init(elems, options);
     //  });
 
-    console.log('sssss')
+    
   
 
    }
@@ -312,17 +312,17 @@ import M from 'materialize-css';
 
    render(some) {
      
-    const responseGoogle = (response) => {
-      console.log(`full responnse`)
-      console.log(response)
-      console.log(response.tokenObj.access_token);
+    // const responseGoogle = (response) => {
+    //   console.log(`full responnse`)
+    //   console.log(response)
+    //   console.log(response.tokenObj.access_token);
 
-      API.search({
-        token : response.tokenObj.access_token
-      })
+    //   API.search({
+    //     token : response.tokenObj.access_token
+    //   })
      
 
-    }
+    // }
     
    
      

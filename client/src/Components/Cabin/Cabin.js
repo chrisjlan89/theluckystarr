@@ -302,6 +302,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
+                  <i className="fas fa-star"></i>
                   
                   </div>
               </figcaption>

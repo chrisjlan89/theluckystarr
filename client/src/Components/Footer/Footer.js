@@ -56,11 +56,11 @@ state = {
         <div className="numbers-con">
           <div className="first-number">
             <p className="name">Kellady : </p>
-            <p className="number">  7326162126 </p>
+            
           </div> 
           <div className="first-number">
             <p className="name">Kellady : </p>
-            <p className="number">  7326162126 </p>
+            
           </div>
         </div>
 

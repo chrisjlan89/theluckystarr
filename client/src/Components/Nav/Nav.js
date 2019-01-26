@@ -18,7 +18,7 @@ render(){
   return (
     <div>
     <nav>
-    <div class="nav-wrapper">
+    <div className="nav-wrapper">
     <div className="col l2 offset-s2  offset-l3 col s2">
             
   
@@ -58,21 +58,3 @@ export default Nav;
 
 
 
-// <nav id = "custom-nav-style">
-// <div className="nav-wrapper ">
-  
-//   <ul id=" " className="right  custom-link-style sidenav-fixed">
-//   <a href="#" className="brand-logo brand-text custom-brand-text"  >The Lucky Starr</a>
-//   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-//   <ul class="right hide-on-med-and-down">
-  
-  // <li className="text-color"><Link className={window.location.pathname === "/" ? "active" : ""}  to="/">   Home </Link></li>
-  // <li className="text-color"><Link className={window.location.pathname === "/cabin" ? "active" : ""}  to="/cabin">   Cabin Rental </Link></li>
-  // <li className="text-color"><Link className={window.location.pathname === "/venue" ? "active" : ""}  to="/venue">  The Venue </Link></li>
-  // <li className="text-color"><Link className={window.location.pathname === "/form" ? "active" : ""} to="/form">   Contact Us </Link></li>
-//   </ul>
-//   </ul>
-  
-//   </div>
-  
-// </nav>

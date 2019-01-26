@@ -34,10 +34,10 @@ class ContactForm extends Component  {
   
    componentDidMount(instances, stuff) {
     
-     console.log('I was triggered during componentDidMount')
-      console.log(l)
-      console.log(instances)
-      console.log( stuff + ' stuff linw 36')
+    //  console.log('I was triggered during componentDidMount')
+    //   console.log(l)
+    //   console.log(instances)
+    //   console.log( stuff + ' stuff linw 36')
       
       var elems = document.querySelectorAll('.collapsible');
       var instances = M.Collapsible.init(elems);
@@ -131,10 +131,10 @@ class ContactForm extends Component  {
       [name]: value
     }, () => {
       if (this.state.selectValue) {
-        console.log('removing attr')
-        console.log('callback')
+        // console.log('removing attr')
+        // console.log('callback')
 
-        console.log(this.state)
+        // console.log(this.state)
         this.setState({
           isNotSelectedBool : false
          
@@ -195,8 +195,8 @@ class ContactForm extends Component  {
 
     render() {
 
-      console.log("form");
-      console.log(this.state);
+      // console.log("form");
+      // console.log(this.state);
     return (
 
 
@@ -333,7 +333,7 @@ class ContactForm extends Component  {
                                 value={this.state.message}
                                 onChange={this.handleInputChange}
                                 id="textarea1" 
-                                class="form__input materialize-textarea">
+                                className="form__input materialize-textarea">
                                 </textarea>
                                 <label htmlFor="textarea1">Textarea</label>
                                     </div>
@@ -344,7 +344,7 @@ class ContactForm extends Component  {
                               
 
                             <div className="form__group">
-                                    <div class="form__radio-group">
+                                    <div className="form__radio-group">
                                         
                                     </div>
 
@@ -353,7 +353,7 @@ class ContactForm extends Component  {
                                     {this.state.selectValue  && this.state.email ?
                                       <button 
                                       onClick ={this.handleFormSubmit}
-                                      class="btn btn--green" 
+                                      className="btn btn--green" 
                                       //data-target="modal1" 
                                      // class="btn modal-trigger"
                                       >
@@ -368,19 +368,19 @@ class ContactForm extends Component  {
                          </div>
                          <div className ="section-faq">
                           <h6 > Frequently Asked Question</h6>
-                         <ul class="collapsible">
+                         <ul className="collapsible">
                          <li>
-                           <div class="collapsible-header"><i>Q : </i>How do I ?</div>
-                           <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                           <div className="collapsible-header"><i>Q : </i>How do I ?</div>
+                           <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                          </li>
                          <li>
-                            <div class="collapsible-header"><i>Q : </i>Where do I ?</div>
-                           <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                            <div className="collapsible-header"><i>Q : </i>Where do I ?</div>
+                           <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                          </li>
                          <li>
                         
-                           <div class="collapsible-header"> <i>Q : </i>How do I ?</div>
-                           <div class="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                           <div className="collapsible-header"> <i>Q : </i>How do I ?</div>
+                           <div className="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                          </li>
                        </ul>
                               
@@ -545,7 +545,7 @@ class ContactForm extends Component  {
                                 value={this.state.message}
                                 onChange={this.handleInputChange}
                                 id="textarea1" 
-                                class="form__input materialize-textarea">
+                                className="form__input materialize-textarea">
                                 </textarea>
                                 <label htmlFor="textarea1">Textarea</label>
                                     </div>
@@ -556,7 +556,7 @@ class ContactForm extends Component  {
                               
 
                             <div className="form__group">
-                                    <div class="form__radio-group">
+                                    <div className="form__radio-group">
                                         
                                     </div>
 
@@ -564,9 +564,9 @@ class ContactForm extends Component  {
                                     {this.state.selectValue  && this.state.email ?
                                     <button 
                                     onClick ={this.handleFormSubmit}
-                                    class="btn btn--green" 
+                                   className="btn btn--green" 
                                     data-target="modal1" 
-                                    class="btn modal-trigger"
+                                   className="btn modal-trigger"
                                     >
                                    Submit </button>
                                   :
@@ -582,19 +582,19 @@ class ContactForm extends Component  {
                     <div className = "col s12">
                          <div className ="section-faq">
                          <h6 > Frequently Asked Question</h6>
-                        <ul class="collapsible">
+                        <ul className="collapsible">
                         <li>
-                          <div class="collapsible-header"><i>Q : </i>How do I ?</div>
-                          <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                          <div className="collapsible-header"><i>Q : </i>How do I ?</div>
+                          <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <li>
-                           <div class="collapsible-header"><i>Q : </i>Where do I ?</div>
-                          <div class="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                           <div className="collapsible-header"><i>Q : </i>Where do I ?</div>
+                          <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                         <li>
                        
-                          <div class="collapsible-header"> <i>Q : </i>How do I ?</div>
-                          <div class="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                          <div className="collapsible-header"> <i>Q : </i>How do I ?</div>
+                          <div className="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
                         </li>
                       </ul>
                              

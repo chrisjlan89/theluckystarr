@@ -10,7 +10,7 @@ import M from 'materialize-css';
  class Home extends Component {
   componentDidMount() {
     
-    console.log('I was triggered during componentDidMount')
+    // console.log('I was triggered during componentDidMount')
     var options = {}
     var elems = document.querySelectorAll('.parallax');
     var instances = M.Parallax.init(elems, options);
@@ -34,15 +34,15 @@ import M from 'materialize-css';
 
       <div>
       <MediaQuery minDeviceWidth={1224}>
-      <div class="bg">
+      <div className="bg">
         <div className="row">
         
           <div id="para-height" className="parallax-container">
-            <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_1b.jpg"}/></div>
+            <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_1b.jpg"}/></div>
           </div>
         </div>
-        <div class="row ">
-            <div class="section white section-white">
+        <div className="row ">
+            <div className="section white section-white">
              
                 <div className ="review col s8 offset-m2">
                   <div className="review__text">
@@ -60,8 +60,8 @@ import M from 'materialize-css';
           <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_2.jpg"}/></div>
         </div>
         </div>
-            <div class="section white section-white">
-              <div class="row ">
+            <div className="section white section-white">
+              <div className="row ">
                 <div className ="review col s8 offset-m2">
                   <div className="review__text">
                     <h3 className="heading-tertiary">Perfect for all occasions</h3>
@@ -76,15 +76,15 @@ import M from 'materialize-css';
 
 
      <MediaQuery maxDeviceWidth={1224}>
-     <div class="bg">
+     <div className="bg">
      <div className="row">
      
        <div id="para-height" className="parallax-container">
          <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_1b.jpg"}/></div>
        </div>
      </div>
-     <div class="row ">
-         <div class="section white section-white">
+     <div className="row ">
+         <div className="section white section-white">
           
              <div className ="review col s10 offset-s1">
                <div className="review__text">
@@ -100,11 +100,11 @@ The farm was established in 1992 by Starr & Parky LaFayette who have spent years
          </div>
          <div className="row">      
 <div className="parallax-container">
-       <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_2.jpg"}/></div>
+       <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_2.jpg"}/></div>
      </div>
      </div>
-         <div class="section white section-white">
-           <div class="row ">
+         <div className="section white section-white">
+           <div className="row ">
              <div className ="review col s10 offset-s1">
                <div className="review__text">
                  <h3 className="heading-tertiary">Perfect for all occasions</h3>
