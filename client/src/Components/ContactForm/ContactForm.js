@@ -31,14 +31,37 @@ document.addEventListener('DOMContentLoaded', function(stuff, instances) {
 });
 
 class ContactForm extends Component  {
+  constructor(props){
+    super(props)
+    this.clearForm = this.clearForm.bind(this)
+
+    this.state = {
+      first : "",
+      last : "",
+      email: "",
+      message : "",
+      
+      isNotSelectedBool : true,
+      selectValue : "",
+      largeMap : {
+        width : '800',
+        height : '450'
   
+      },
+  
+      smallMap : {
+        width : '385',
+        height : '200',
+  
+      }
+     
+   
+    };
+
+  }
    componentDidMount(instances, stuff) {
       M.AutoInit();
-    //  console.log('I was triggered during componentDidMount')
-    //   console.log(l)
-    //   console.log(instances)
-    //   console.log( stuff + ' stuff linw 36')
-      
+    
       // var elems = document.querySelectorAll('.collapsible');
       // var instances = M.Collapsible.init(elems);
 
@@ -58,28 +81,7 @@ class ContactForm extends Component  {
   
   }
 
-  state = {
-    first : "",
-    last : "",
-    email: "",
-    message : "",
-    
-    isNotSelectedBool : true,
-    selectValue : "",
-    largeMap : {
-      width : '800',
-      height : '450'
-
-    },
-
-    smallMap : {
-      width : '385',
-      height : '200',
-
-    }
-   
  
-  };
 
 
   // handleDropdownChange = event => {
@@ -153,8 +155,11 @@ class ContactForm extends Component  {
       
     // }
 
+     clearForm = () => { 
+       console.log('cleared')
+      }
     
-  handleFormSubmit = (event, instances) => {
+  handleFormSubmit = (event, clearForm) => {
     event.preventDefault();
     if (this.state.first && this.state.email && this.state.message) {
       API.sendEmail({
@@ -190,7 +195,7 @@ class ContactForm extends Component  {
      
 //    }
 //  }
-
+  
 
 
     render() {
