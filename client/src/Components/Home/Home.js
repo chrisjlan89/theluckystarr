@@ -19,7 +19,7 @@ import M from 'materialize-css';
   }
 
    render() {
-
+    console.log('Build not post build')
 
     
 
