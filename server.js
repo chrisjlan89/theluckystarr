@@ -60,9 +60,9 @@ app.listen(PORT, function(){
 
 
 // Set up promises with mongoose
-mongoose.Promise = global.Promise;
-mongoose.set('debug', false) // enable logging collection methods + arguments to the console
+//mongoose.Promise = global.Promise;
+//mongoose.set('debug', false) // enable logging collection methods + arguments to the console
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/TheLuckyStarr", { useNewUrlParser: true });
+//mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/TheLuckyStarr", { useNewUrlParser: true });
 
 
