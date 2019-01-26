@@ -41,17 +41,20 @@ transporter.verify((error, success) => {
 router.post('/api/send', (req, res) => {
   console.log('hit route insinde routes')
   console.log(req.body)
-    var name = req.body.name
-    var email = req.body.email
-    var message = req.body.message
-    var subject = req.body.subject
-    var content = `From ${name}, \n inquiring about ${subject}`
-  
+    let name = req.body.name
+    let email = req.body.email
+    let message = req.body.message
+    let inquiry = req.body.subject
+    let subject = `${name}, inquiring about ${inquiry}`
+    let body =  ` From ${name},   
+                  Asking about : ${inquiry}
+                  
+                  ${message}` 
     var mail = {
-      from: name,
-      to: 'chrisj17@gmail.com',  //Change to email address that you want to receive messages on
+      from: email,
+      to: 'theluckystarrvenue@gmail.com',  //Change to email address that you want to receive messages on
       subject: content,
-      text: message
+      text: body
     }
   
     transporter.sendMail(mail, (err, data) => {
