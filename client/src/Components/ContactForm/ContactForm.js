@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function(stuff, instances) {
   
   
 
-  M.AutoInit(elems);
+
 });
 
 class ContactForm extends Component  {
@@ -60,7 +60,7 @@ class ContactForm extends Component  {
 
   }
    componentDidMount(instances, stuff) {
-      M.AutoInit();
+    //  M.AutoInit();
     
       // var elems = document.querySelectorAll('.collapsible');
       // var instances = M.Collapsible.init(elems);

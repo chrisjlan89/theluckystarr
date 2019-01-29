@@ -248,9 +248,9 @@ import M from 'materialize-css';
     console.log('I was triggered during componentDidMount')
     var options = {}
     var elems = document.querySelectorAll('.materialboxed');
-    var instances = M.Materialbox.init(elems, options);
+//var instances = M.Materialbox.init(elems, options);
 
-    M.AutoInit();
+  //  M.AutoInit();
     
   }
 

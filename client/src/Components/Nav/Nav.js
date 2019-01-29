@@ -9,7 +9,7 @@ class Nav extends Component {
   componentDidMount() {
   document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
+   // var instances = M.Sidenav.init(elems);
   //   let element = document.querySelector('.dropdown-trigger');
   //  this.element = element;
    
