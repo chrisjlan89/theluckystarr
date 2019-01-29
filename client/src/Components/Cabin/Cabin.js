@@ -229,7 +229,7 @@ import M from 'materialize-css';
      
       caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
 
-},
+}
 
 
 
