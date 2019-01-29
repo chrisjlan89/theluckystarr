@@ -5,7 +5,7 @@ import {AUTH_CONFIG} from '../../Auth/authVars';
 import MediaQuery from "react-responsive";
 // import Auth from '../../Auth/auth';
 import  Gallery  from 'react-grid-gallery';
-// import Gallery  from 'react-photo-gallery' ;
+import * as otherGallery  from 'react-photo-gallery' ;
 import './Cabin.css'
 import 'materialize-css/dist/css/materialize.min.css'
 
@@ -136,6 +136,79 @@ import M from 'materialize-css';
 
  },
 
+ {
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin8.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin8.jpg",
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "One full bath with a shower."
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin9.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin9.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin10.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin10.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin11.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin11.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters.  "
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin12.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin12.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin13.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin13.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
+
+},
+
+
+
 
  ];
  
@@ -151,7 +224,7 @@ import M from 'materialize-css';
     var elems = document.querySelectorAll('.materialboxed');
     var instances = M.Materialbox.init(elems, options);
 
-
+    M.AutoInit();
     
   }
 
@@ -261,10 +334,13 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       <div className=" col s6">
       <div className="description">
           <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+          The Big Cabin has two separate units. Each unit has its own bathroom and kitchen. Downstairs has 2 bedrooms and can sleep 5. 
+          The upstairs can sleep 10 and has 1 bedroom with a queen bed, a cozy loft that can sleep 6, and a pull out sofa in the living room. 
+         
           </p>
           <p className="paragraph">
-              Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+          The cabin can be rented as a whole or each unit separately. It is available for rent now, but please call 423-533-2100 to check availability and for more information. 
+          A small security deposit is required. Pets are allowed for an additional fee. Sorry, at this time we cannot take credit cards.
           </p>
           <ul className="list">
               <li className="list__item">Downstairs unit rents for $100 for 2 guests per</li>

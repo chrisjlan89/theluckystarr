@@ -38,7 +38,7 @@ import M from 'materialize-css';
         <div className="row">
         
           <div id="para-height" className="parallax-container">
-            <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_1b.jpg"}/></div>
+            <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax1_c.jpg"}/></div>
           </div>
         </div>
         <div className="row ">
@@ -57,7 +57,7 @@ import M from 'materialize-css';
             </div>
             <div className="row">      
  <div className="parallax-container">
-          <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_2.jpg"}/></div>
+          <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax_2.jpg"}/></div>
         </div>
         </div>
             <div className="section white section-white">
@@ -80,7 +80,7 @@ import M from 'materialize-css';
      <div className="row">
      
        <div id="para-height" className="parallax-container">
-         <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_1b.jpg"}/></div>
+         <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax1_c.jpg"}/></div>
        </div>
      </div>
      <div className="row ">
@@ -100,7 +100,7 @@ The farm was established in 1992 by Starr & Parky LaFayette who have spent years
          </div>
          <div className="row">      
 <div className="parallax-container">
-       <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/paralax_2.jpg"}/></div>
+       <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax_2.jpg"}/></div>
      </div>
      </div>
          <div className="section white section-white">
