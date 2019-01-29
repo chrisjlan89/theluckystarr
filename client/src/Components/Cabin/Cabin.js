@@ -167,7 +167,7 @@ import M from 'materialize-css';
   thumbnailWidth: 320,
       thumbnailHeight: 174,
      
-      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
+      caption: "Second bedroom has bunk beds with a single on top and a double on bottom."
 
 },
 
@@ -188,10 +188,10 @@ import M from 'materialize-css';
   thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin12.jpg",
   
   className: "object-fit-util",
-  thumbnailWidth: 320,
+  thumbnailWidth: 144,
       thumbnailHeight: 174,
      
-      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
+      caption: "Full bath with shower, towels provided."
 
 },
 
@@ -206,6 +206,32 @@ import M from 'materialize-css';
       caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
 
 },
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin14.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin14.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
+
+},
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin15.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin15.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 1050,
+      thumbnailHeight: 900,
+     
+      caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
+
+},
+
+
 
 
 
