@@ -147,17 +147,7 @@ import M from 'materialize-css';
 
 },
 
-{
-  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin9.jpg",
-  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin9.jpg",
-  
-  className: "object-fit-util",
-  thumbnailWidth: 320,
-      thumbnailHeight: 174,
-     
-      caption: "Downstairs living room with gas heater and electric wall air unit plus electric space heaters. ."
 
-},
 
 {
   src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin10.jpg",
