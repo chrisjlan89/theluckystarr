@@ -371,25 +371,30 @@ class ContactForm extends Component  {
                         </div>
                         
                          </div>
-                         <div className ="section-faq">
-                          <h6 > Frequently Asked Question</h6>
-                         <ul className="collapsible">
-                         <li>
-                           <div className="collapsible-header"><i>Q : </i>How do I ?</div>
-                           <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                         </li>
-                         <li>
-                            <div className="collapsible-header"><i>Q : </i>Where do I ?</div>
-                           <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                         </li>
-                         <li>
+
                         
-                           <div className="collapsible-header"> <i>Q : </i>How do I ?</div>
-                           <div className="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                         </li>
-                       </ul>
+                         {
+                           // FAQS if want to readd
+                    //      <div className ="section-faq">
+                    //       <h6 > Frequently Asked Question</h6>
+                    //      <ul className="collapsible">
+                    //      <li>
+                    //        <div className="collapsible-header"><i>Q : </i>How do I ?</div>
+                    //        <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                    //      </li>
+                    //      <li>
+                    //         <div className="collapsible-header"><i>Q : </i>Where do I ?</div>
+                    //        <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                    //      </li>
+                    //      <li>
+                        
+                    //        <div className="collapsible-header"> <i>Q : </i>How do I ?</div>
+                    //        <div className="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
+                    //      </li>
+                    //    </ul>
                               
-                    </div>
+                    // </div>
+                         }
                     
 
 
@@ -413,12 +418,14 @@ class ContactForm extends Component  {
     }
 
    
+    <div className ="map-area">
+    <MapIframe mapSize={this.state.largeMap}/>
+   
+     </div>
+    
 
     </div>
-    <div className ="map-area">
-   <MapIframe mapSize={this.state.largeMap}/>
-  
-    </div>
+   
 
     </MediaQuery>
 
