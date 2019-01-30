@@ -425,14 +425,15 @@ import M from 'materialize-css';
 
           <figure className="venue-review">
               <blockquote className="venue-review__text">
-              Definitely a beautiful place for nearly all events, especially concerts or weddings! The landscape is gorgeous, there is plenty of space, the people are extremely courteous and professional, and there's even a stage with a high-quality sound system! I can't wait to visit again and I highly recommend this venue to anyone in need of a great gathering place for any event!
+              This place was awesome! I got married here in late August and it was absolutely beautiful! 
+              The staff was incredibly helpful and made my day unforgettable. I wouldn't have changed a thing! Thank you Kellady and Mikey
 
               </blockquote>
               <figcaption className="venue-review__user">
                   <img src={process.env.PUBLIC_URL + "assets/img/venueReview/review2.jpg"} alt="User 1" className="venue-review__photo" />
                   <div className="venue-review__user-box">
-                      <p className="venue-review__user-name">James Lowery</p>
-                      <p className="venue-review__user-date">December 27th, 2015</p>
+                      <p className="venue-review__user-name">Becky Smith</p>
+                      <p className="venue-review__user-date">April  28th, 2016</p>
                   </div>
                   <div className="venue-review__rating">
                   <i className="fas fa-star"></i>
@@ -522,30 +523,31 @@ import M from 'materialize-css';
       <figure className="user-reviews">
       <div className="row">
 <div className="col s10 offset-s1">
-         <figure className="venue-review">
-              <blockquote className="venue-review__text">
-              I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the escape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
+<figure className="venue-review">
+<blockquote className="venue-review__text">
+I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the escape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
 
-              </blockquote>
-              <figcaption className="venue-review__user">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/venueReview/review1.jpg"} alt="User 1" className="venue-review__photo" />
-                  <div className="venue-review__user-box">
-                      <p className="venue-review__user-name">Elizabeth  
-                      </p>
-                      <p className="venue-review__user-name">Reinhardt-Crum 
-                      </p>
-                      
-                      <p className="venue-review__user-date">June 11th, 2016</p>
-                  </div>
-                  <div className="venue-review__rating">
-                  <i className="fas fa-star"> </i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  
-                  </div>
-              </figcaption>
-          </figure>
+</blockquote>
+<figcaption className="venue-review__user">
+    <img src={process.env.PUBLIC_URL + "/assets/img/venueReview/review1.jpg"} alt="User 1" className="venue-review__photo" />
+    <div className="venue-review__user-box">
+        <p className="venue-review__user-name">Elizabeth  
+        </p>
+        <p className="venue-review__user-name">Reinhardt-Crum 
+        </p>
+        
+        <p className="venue-review__user-date">June 11th, 2016</p>
+    </div>
+    <div className="venue-review__rating">
+    <i className="fas fa-star"> </i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    <i className="fas fa-star"></i>
+    
+    </div>
+</figcaption>
+</figure>
+
           </div>
           </div>
    <div className="row">

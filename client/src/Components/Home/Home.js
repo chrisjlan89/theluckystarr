@@ -11,8 +11,8 @@ import M from 'materialize-css';
   componentDidMount() {
     
     // console.log('I was triggered during componentDidMount')
-    var options = {}
-    var elems = document.querySelectorAll('.parallax');
+    //var options = {}
+    //var elems = document.querySelectorAll('.parallax');
     //var instances = M.Parallax.init(elems, options);
     
    
