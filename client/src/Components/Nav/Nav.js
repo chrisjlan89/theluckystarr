@@ -34,7 +34,7 @@ render(){
       <li className="text-color " data-target="slide-out"><Link className={window.location.pathname === "/" ? "active" : ""}  to="/">   Home </Link></li>
       <li className="text-color " ><Link className={window.location.pathname === "/cabin" ? "active" : ""}  to="/cabin">   Cabin Rental </Link></li>
       <li className="text-color "><Link className={window.location.pathname === "/venue" ? "active" : ""}  to="/venue">  The Venue </Link></li>
-      <li className="text-color"><Link data-target="dropdown1" className={window.location.pathname === "/form" ? "active" : "dropdown-trigger"} to="/form">   Contact Us </Link></li>
+      <li className="text-color"><Link data-target="dropdown1" className={window.location.pathname === "/form" ? "active" : ""} to="/form">   Contact Us </Link></li>
       </ul>
       <a href ="https://www.facebook.com/luckystarr6086/">
       <img className ="social-container" src={process.env.PUBLIC_URL + "assets/img/Facebook_icon_20132.png"}/>
@@ -46,7 +46,7 @@ render(){
   <li className="text-color"><Link className={window.location.pathname === "/" ? "active" : ""}  to="/">   Home </Link></li>
   <li className="text-color"><Link className={window.location.pathname === "/cabin" ? "active" : ""}  to="/cabin">   Cabin Rental </Link></li>
   <li className="text-color"><Link className={window.location.pathname === "/venue" ? "active" : ""}  to="/venue">  The Venue </Link></li>
-  <li className="text-color"><Link data-target="dropdown1" className= {window.location.pathname === "/form" ?  'active' : "dropdown-trigger"} to="/form ">   Contact Us </Link></li>
+  <li className="text-color"><Link data-target="dropdown1" className= {window.location.pathname === "/form" ?  'active' : ""} to="/form ">   Contact Us </Link></li>
   </ul>
 
   <ul id="dropdown1" class="dropdown-content">
