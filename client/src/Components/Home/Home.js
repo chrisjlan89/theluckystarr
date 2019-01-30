@@ -9,7 +9,7 @@ import M from 'materialize-css';
 
  class Home extends Component {
   componentDidMount() {
-    M.AutoInit()
+   M.AutoInit()    
     // console.log('I was triggered during componentDidMount')
     //var options = {}
     //var elems = document.querySelectorAll('.parallax');

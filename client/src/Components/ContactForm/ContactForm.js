@@ -4,18 +4,12 @@ import './contact.css';
 import MediaQuery from "react-responsive";
 import MapIframe from '../../MAP/mapIframe';
 //import 'materialize-css/dist/css/materialize.min.css'
-
 import M from 'materialize-css';
+var validator = require('validator');
+ 
 
-//import Login from "../Login";
 
-// let l = 'l'
-// let stuff;
-// let instances;
 
-// var elem = document.querySelectorAll('.select-dropdown');
-   
-//var instance = M.FormSelect.getInstance(elem);
 
 
 // document.addEventListener('DOMContentLoaded', function(stuff, instances) {
@@ -51,7 +45,7 @@ class ContactForm extends Component  {
   
       smallMap : {
         width : '385',
-        height : '200',
+        height : '300',
   
       }
      
@@ -158,10 +152,10 @@ class ContactForm extends Component  {
      clearForm = () => { 
        console.log('cleared')
       }
-    
+     
   handleFormSubmit = (event, clearForm) => {
     event.preventDefault();
-    if (this.state.first && this.state.email && this.state.message) {
+    if (this.state.first &&  validator.isEmail( this.state.email) && this.state.message) {
       API.sendEmail({
         name: `${this.state.first} ${this.state.last}`,
         email: this.state.email,
@@ -590,29 +584,7 @@ class ContactForm extends Component  {
                         </div>
                         </div>
                          </div>
-                  <div className="row">
-                    <div className = "col s12">
-                         <div className ="section-faq">
-                         <h6 > Frequently Asked Question</h6>
-                        <ul className="collapsible">
-                        <li>
-                          <div className="collapsible-header"><i>Q : </i>How do I ?</div>
-                          <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                        <li>
-                           <div className="collapsible-header"><i>Q : </i>Where do I ?</div>
-                          <div className="collapsible-body"><span><i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                        <li>
-                       
-                          <div className="collapsible-header"> <i>Q : </i>How do I ?</div>
-                          <div className="collapsible-body"><span> <i>A : </i>Lorem ipsum dolor sit amet.</span></div>
-                        </li>
-                      </ul>
-                             
-                   </div>
-                   </div>
-                   </div>
+                
 
                    <div className = "row">
                    <div className = "col s12">
