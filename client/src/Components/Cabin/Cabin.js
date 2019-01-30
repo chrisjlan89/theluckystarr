@@ -381,13 +381,16 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       <figure className="user-reviews">
           <figure className="venue-review">
               <blockquote className="venue-review__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+              What a beautiful great location and a Gem of a find! The owners are amazing, friendly, 
+              and so accommodating to everything that you might need. 
+              My family had such as awesome experience spending the day at this location. 
+              Well Done Lucky Starr!! Thanks a bunch for wonderful time 
               </blockquote>
               <figcaption className="venue-review__user">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/gallery4.jpg"} alt="User 1" className="venue-review__photo" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/cabin/review/review_christy.jpg"} alt="User 1" className="venue-review__photo" />
                   <div className="venue-review__user-box">
-                      <p className="venue-review__user-name">Nicholas Cage</p>
-                      <p className="venue-review__user-date">Jan 12th, 2017</p>
+                      <p className="venue-review__user-name">Christy McDaniel</p>
+                      <p className="venue-review__user-date">August 22nd, 2017</p>
                   </div>
                   <div className="venue-review__rating">
                   <i className="fas fa-star"> </i>
@@ -402,13 +405,13 @@ cabin is a great place for a romantic weekend or to spend quality time with your
 
           <figure className="venue-review">
               <blockquote className="venue-review__text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga doloremque architecto dicta animi.
+                Great time camping and viewing the 2017 eclipse! Also got to catch up with old friends and make new ones. We shall return!
               </blockquote>
               <figcaption className="venue-review__user">
-                  <img src={process.env.PUBLIC_URL + "/assets/img/gallery4.jpg"} alt="User 1" className="venue-review__photo" />
+                  <img src={process.env.PUBLIC_URL + "/assets/img/cabin/review/review_brandon.jpeg"} alt="User 1" className="venue-review__photo" />
                   <div className="venue-review__user-box">
-                      <p className="venue-review__user-name">Megan Tully</p>
-                      <p className="venue-review__user-date">Sept 27th, 2017</p>
+                      <p className="venue-review__user-name">Brandon Lacy</p>
+                      <p className="venue-review__user-date">August 21th, 2017</p>
                   </div>
                   <div className="venue-review__rating">
                   <i className="fas fa-star"></i>
