@@ -13,7 +13,7 @@ import M from 'materialize-css';
     // console.log('I was triggered during componentDidMount')
     var options = {}
     var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
+    //var instances = M.Parallax.init(elems, options);
     
    
   }

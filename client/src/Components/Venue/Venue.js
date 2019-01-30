@@ -269,7 +269,7 @@ import M from 'materialize-css';
     // var options = {}
     // var elems = document.querySelectorAll('.materialboxed');
     //var instances = M.Materialbox.init(elems, options);
-    M.AutoInit();
+    //M.AutoInit();
    
 
     

@@ -60,7 +60,7 @@ class ContactForm extends Component  {
 
   }
    componentDidMount(instances, stuff) {
-      M.AutoInit();
+    //  M.AutoInit();
     
       // var elems = document.querySelectorAll('.collapsible');
       // var instances = M.Collapsible.init(elems);
