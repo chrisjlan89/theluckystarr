@@ -9,26 +9,26 @@ import M from 'materialize-css';
 
 //import Login from "../Login";
 
-let l = 'l'
-let stuff;
-let instances;
+// let l = 'l'
+// let stuff;
+// let instances;
 
-var elem = document.querySelectorAll('.select-dropdown');
+// var elem = document.querySelectorAll('.select-dropdown');
    
 //var instance = M.FormSelect.getInstance(elem);
 
 
-document.addEventListener('DOMContentLoaded', function(stuff, instances) {
-  var options = {}; 
-  var elems = document.querySelectorAll('.modal ');
-  return stuff = 'stuff';
+// document.addEventListener('DOMContentLoaded', function(stuff, instances) {
+//   var options = {}; 
+//   var elems = document.querySelectorAll('.modal ');
+//   return stuff = 'stuff';
   // return instances = M.Modal.init(elems, options);
   
   
   
 
 
-});
+// });
 
 class ContactForm extends Component  {
   constructor(props){
@@ -60,7 +60,7 @@ class ContactForm extends Component  {
 
   }
    componentDidMount(instances, stuff) {
-    //  M.AutoInit();
+      M.AutoInit();
     
       // var elems = document.querySelectorAll('.collapsible');
       // var instances = M.Collapsible.init(elems);

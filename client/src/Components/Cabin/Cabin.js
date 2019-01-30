@@ -44,19 +44,7 @@ import M from 'materialize-css';
 
 
 
-  const PHOTO_SET = [
-    {
-      src: process.env.PUBLIC_URL + "/assets/paralax_1.jpg",
-      className: 'materialboxed',
-      width: 4,
-      height: 3
-    },
-    {
-      src: process.env.PUBLIC_URL + "/assets/paralax_1.jpg",
-      width: 1,
-      height: 1
-    }
-  ];
+
 
  const IMAGES = [
   {
@@ -236,11 +224,10 @@ import M from 'materialize-css';
   componentDidMount() {
     
     console.log('I was triggered during componentDidMount')
-    var options = {}
-    var elems = document.querySelectorAll('.materialboxed');
+   
 //var instances = M.Materialbox.init(elems, options);
 
-  //  M.AutoInit();
+    M.AutoInit();
     
   }
 
