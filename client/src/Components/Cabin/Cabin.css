@@ -313,13 +313,13 @@ display: flex;
     @media only screen and (max-width: 850px) {
 
         body {
-            text-align: justify;
+          width : 85vh;
         }
         h2 {
             text-align: center;
         }
         h5 {
-            text-align: justify;
+           
             margin: 0 auto;
         }
 
