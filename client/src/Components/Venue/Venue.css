@@ -340,6 +340,10 @@ display: flex;
         flex: 0 0 60%; 
         }
 
+        .gal-con {
+            
+        }
+
         figure {
             margin: -18px;
         }

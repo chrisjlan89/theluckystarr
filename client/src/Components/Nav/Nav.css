@@ -106,9 +106,9 @@ top : 2rem;
 
 .social-container {
       
-    float: left;
+    float: right;
     width: 3%;
-    margin-left: .5%;
+    margin-right: .5%;
     margin-top : .15%;
 
     
