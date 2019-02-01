@@ -469,13 +469,24 @@ cabin is a great place for a romantic weekend or to spend quality time with your
   <div className=" col s12">
   <div className="description">
       <p className="paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+      The Big Cabin has two separate units. 
+      Each unit has its own bathroom and kitchen. 
+      Downstairs has 2 bedrooms and can sleep 5. 
+      The upstairs can sleep 10 and has 1 bedroom with a queen bed, 
+      a cozy loft that can sleep 6, and a pull out sofa in the living room.
+
+      
       </p>
       <p className="paragraph">
-          Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
+      The cabin can be rented as a whole or each unit separately. 
+      It is available for rent now, but please call 423-533-2100 
+      to check availability and for more information. 
+      A small security deposit is required. 
+      Pets are allowed for an additional fee. 
+      Sorry, at this time we cannot take credit cards.
       </p>
       <ul className="list">
-          <li className="list__item">Downstairs unit rents for $100 for 2 guests per</li>
+          
           <li className="list__item">Upstairs unit rents for $125 for 2 guest</li>
           <li className="list__item">Downstairs unit rents for $100 for 2 guests</li>
           <li className="list__item">Each rental includes $25 Cleaning fee</li>

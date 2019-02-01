@@ -39,7 +39,7 @@ class ContactForm extends Component  {
       selectValue : "",
       largeMap : {
         width : '800',
-        height : '450'
+        height : '500'
   
       },
   

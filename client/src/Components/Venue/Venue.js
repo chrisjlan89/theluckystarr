@@ -68,17 +68,7 @@ import M from 'materialize-css';
   ];
 
  const IMAGES = [
-   {
-    
-     src: process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
-     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
-     className: "materialboxed",
-     isSelected : false,
-     thumbnailWidth: 144,
-         thumbnailHeight: 174,
-        
-        
-   },
+  
    {
    
     src: process.env.PUBLIC_URL + "/assets/img/venue/venue2.jpg",
@@ -254,6 +244,63 @@ import M from 'materialize-css';
      
        
   },
+{
+  src: process.env.PUBLIC_URL + "/assets/img/venue/venue18.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue18.jpg",
+    className: "materialboxed",
+    thumbnailWidth: 320,
+        thumbnailHeight: 174,
+     
+       
+  },
+  {
+    
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
+    className: "materialboxed",
+    isSelected : false,
+    thumbnailWidth: 320,
+        thumbnailHeight: 174,
+       
+       
+  },
+
+  {
+    
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue19.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue19.jpg",
+    className: "materialboxed",
+    isSelected : false,
+    thumbnailWidth: 320,
+        thumbnailHeight: 174,
+       
+       
+  },
+
+  {
+    
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
+    className: "materialboxed",
+    isSelected : false,
+    thumbnailWidth: 320,
+        thumbnailHeight: 174,
+       
+       
+  },
+
+  {
+    
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
+    className: "materialboxed",
+    isSelected : false,
+    thumbnailWidth: 240,
+        thumbnailHeight: 174,
+       
+       
+  }
+ 
  
 
  ];
@@ -372,16 +419,13 @@ import M from 'materialize-css';
       <div className="detail">
       <div className=" col s6">
       <div className="description">
-          <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
-          </p>
-          <p className="paragraph">
-              Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
-          </p>
+      <p className="paragraph">
+      Power, lights and PA!!! Our stage can be used for a ceremony with or without the use of the PA system. We have the power to have a DJ, acoustic act or a full band! Whatever your budget allows we have an act for your event!
+      </p>
           <ul className="list">
              
               <li className="list__item">Beatiful location overlooking the beautiful lake </li>
-              <li className="list__item">Available for weddins, corporate events and more</li>
+              <li className="list__item">Available for weddings, corporate events and more</li>
               <li className="list__item">Accomdates up to 100 guests on your special day</li>
               <li className="list__item">Rates for events start at only $250</li>
               <li className="list__item">Have the weddding of your dreams starting at only $800</li>
@@ -389,7 +433,9 @@ import M from 'materialize-css';
           </ul>
           <div className="recommend">
               <p className="recommend__count">
-                 Note : Venue are not included in the base price of weddings or events
+              The venue is available for almost any event so please call us Kellady at 
+              (423) 533 - 2802
+
               </p>
               
           </div>
@@ -493,14 +539,12 @@ import M from 'materialize-css';
       <div className=" col s12">
       <div className="description">
           <p className="paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nisi dignissimos debitis ratione sapiente saepe. Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate.
+          Power, lights and PA!!! Our stage can be used for a ceremony with or without the use of the PA system. We have the power to have a DJ, acoustic act or a full band! Whatever your budget allows we have an act for your event!
           </p>
-          <p className="paragraph">
-              Accusantium cumque, quas, ut corporis incidunt deserunt quae architecto voluptate delectus, inventore iure aliquid aliquam.
-          </p>
+          
           <ul className="list">
           <li className="list__item">Beatiful location overlooking the beautiful lake </li>
-          <li className="list__item">Available for weddins, corporate events and more</li>
+          <li className="list__item">Available for weddings, corporate events and more</li>
           <li className="list__item">Accomdates up to 100 guests on your special day</li>
           <li className="list__item">Rates for events start at only $250</li>
           <li className="list__item">Have the weddding of your dreams starting at only $800</li>
@@ -510,7 +554,10 @@ import M from 'materialize-css';
           
           <div className="recommend">
               <p className="recommend__count">
-                 Note : Venue are not included in the base price of weddings or events
+                The venue is available for almost any event so please call us Kellady at 
+                (423) 533 - 2802
+
+
               </p>
               
           </div>
