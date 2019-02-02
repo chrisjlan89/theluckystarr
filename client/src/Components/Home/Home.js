@@ -33,6 +33,7 @@ import M from 'materialize-css';
     
 
       <div>
+      <p>Babab boooy this a test oooy</p>
       <MediaQuery minDeviceWidth={1224}>
       <div className="bg">
         <div className="row">
@@ -57,7 +58,7 @@ import M from 'materialize-css';
             </div>
             <div className="row">      
  <div className="parallax-container">
-          <div className="parallax"><img class="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax_2.jpg"}/></div>
+          <div className="parallax"><img className="para-img" src={process.env.PUBLIC_URL + "/assets/img/home/paralax_2.jpg"}/></div>
         </div>
         </div>
             <div className="section white section-white">
