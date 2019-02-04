@@ -360,17 +360,17 @@ import M from 'materialize-css';
 
    render(some) {
      
-    // const responseGoogle = (response) => {
-    //   console.log(`full responnse`)
-    //   console.log(response)
-    //   console.log(response.tokenObj.access_token);
+    const responseGoogle = (response) => {
+      console.log(`full responnse`)
+      console.log(response)
+      console.log(response.tokenObj.access_token);
 
-    //   API.search({
-    //     token : response.tokenObj.access_token
-    //   })
+      API.search({
+        token : response.tokenObj.access_token
+      })
      
 
-    // }
+    }
     
    
      
@@ -382,6 +382,12 @@ import M from 'materialize-css';
 
  
   <MediaQuery minDeviceWidth={1224}>
+  <GoogleLogin
+  clientId={AUTH_CONFIG.client_id}
+  buttonText="Login"
+  onSuccess={responseGoogle}
+  onFailure={responseGoogle}
+   />
     <div className="row">
     </div> 
     <div className="row">
@@ -502,6 +508,8 @@ import M from 'materialize-css';
 
 
       <MediaQuery maxDeviceWidth={1224}>
+
+      
 
       <div className = "row">
         <div className="col s12">
@@ -628,14 +636,14 @@ I had my daughters wedding and reception there. Corey and Ashley Hart. It's a qu
       </MediaQuery>
       
 
-     {
-    //   <GoogleLogin
-    //   clientId={AUTH_CONFIG.client_id}
-    //   buttonText="Login"
-    //   onSuccess={responseGoogle}
-    //   onFailure={responseGoogle}
-    //    />
-     }
+     
+       <GoogleLogin
+      clientId={AUTH_CONFIG.client_id}
+      buttonText="Login"
+      onSuccess={responseGoogle}
+      onFailure={responseGoogle}
+       />
+     
 </div>
        
     

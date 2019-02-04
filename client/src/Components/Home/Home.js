@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import 'normalize.css/normalize.css'
 //import Login from "../Login";
 import "./Home.css";
 import 'materialize-css/dist/css/materialize.min.css'
