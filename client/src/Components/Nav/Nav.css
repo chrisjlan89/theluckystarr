@@ -152,6 +152,10 @@ top : 2rem;
         top: 5%;
     }
 
+     nav .brand-logo {
+         left : 43.5%;
+     } 
+
     .mob-nav {
         margin-right: 1%;
         /* margin-left: .5%; */

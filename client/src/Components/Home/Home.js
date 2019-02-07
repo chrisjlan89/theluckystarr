@@ -10,13 +10,19 @@ import M from 'materialize-css';
 
  class Home extends Component {
   componentDidMount() {
-   M.AutoInit()    
-    // console.log('I was triggered during componentDidMount')
+    M.AutoInit()    
+     console.log('I was triggered during componentDidMount')
     //var options = {}
-    //var elems = document.querySelectorAll('.parallax');
-    //var instances = M.Parallax.init(elems, options);
+     var elems = document.querySelectorAll('.parallax');
+    var instances = M.Parallax.init(elems);
     
    
+  }
+
+
+  componentDidUpdate(){
+    console.log('I was triggered during componentDidUpdate')
+    M.AutoInit()    
   }
 
    render() {
@@ -24,10 +30,11 @@ import M from 'materialize-css';
 
     
 
-        //  document.addEventListener('DOMContentLoaded', function() {
-        //      var elems = document.querySelectorAll('.parallax');
-        //      var instances = M.Parallax.init(elems);
-        //  })
+        document.addEventListener('DOMContentLoaded', function() {
+              M.AutoInit()    
+              var elems = document.querySelectorAll('.parallax');
+              var instances = M.Parallax.init(elems);
+          })
        
         return (
     
@@ -91,8 +98,12 @@ import M from 'materialize-css';
              <div className ="review col s10 offset-s1">
                <div className="review__text">
                  <h3 className="heading-tertiary">Our Story</h3>
-                   <p>The Lucky Starr in whole is over 600 acres of beautiful land, part mountainside and part farm land. We are nestled in the beautiful Sequatchie Valley between Dayton Mt. and the Cumberland Plateau. The Lucky Starr is in Bledsoe County Tennessee just 6 miles from the quaint town of Pikeville. and only 30 minutes to Fall Creek Falls State Park. 
-The farm was established in 1992 by Starr & Parky LaFayette who have spent years clearing land and building their dreams. They have rented cabins on the property since 1993, now only the Big Cabin. The Event Venue was built in 2014 by Kellady & Mike Bledsoe (Starr’s daughter) and continues to grow as they live in the Small Cabin and run the venue.
+                   <p>The Lucky Starr in whole is over 600 acres of beautiful land, part mountainside and part farm land. 
+                   We are nestled in the beautiful Sequatchie Valley between Dayton Mt. and the Cumberland Plateau. 
+                   The Lucky Starr is in Bledsoe County Tennessee just 6 miles from the quaint town of Pikeville. and only 30 minutes to Fall Creek Falls State Park. 
+The farm was established in 1992 by Starr & Parky LaFayette who have spent years clearing land and building their dreams. 
+They have rented cabins on the property since 1993, now only the Big Cabin. 
+The Event Venue was built in 2014 by Kellady & Mike Bledsoe (Starr’s daughter) and continues to grow as they live in the Small Cabin and run the venue.
 
                    
                    </p>

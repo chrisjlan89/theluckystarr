@@ -54,7 +54,7 @@ class ContactForm extends Component  {
 
   }
    componentDidMount(instances, stuff) {
-    //  M.AutoInit();
+      M.AutoInit();
     
       // var elems = document.querySelectorAll('.collapsible');
       // var instances = M.Collapsible.init(elems);
@@ -141,21 +141,18 @@ class ContactForm extends Component  {
             
      }; 
 
-    //  modalTrigger = (instance) => {
-      
-    //   console.log('modal trigger func')
-    
-    //   instance.open();
-      
-    // }
+   
 
      clearForm = () => { 
        console.log('cleared')
       }
      
-  handleFormSubmit = (event, clearForm) => {
+  handleFormSubmit = (event) => {
+      
     event.preventDefault();
+
     if (this.state.first &&  validator.isEmail( this.state.email) && this.state.message) {
+     
       API.sendEmail({
         name: `${this.state.first} ${this.state.last}`,
         email: this.state.email,
@@ -174,7 +171,7 @@ class ContactForm extends Component  {
 
     else {
       event.preventDefault()
-     // this.modalTrigger(instances)
+     
     }
   };
 
