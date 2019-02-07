@@ -20,7 +20,7 @@ import M from 'materialize-css';
   }
 
    render() {
-    console.log('newest build attempt 2/2/19')
+    
 
     
 
@@ -34,8 +34,7 @@ import M from 'materialize-css';
     
 
       <div>
-      <p>Babab boooy this a test oooy</p>
-      <p> new test 2/2/19</p>
+
       <MediaQuery minDeviceWidth={1224}>
       <div className="bg">
         <div className="row">

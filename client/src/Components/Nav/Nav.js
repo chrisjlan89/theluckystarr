@@ -9,13 +9,13 @@ class Nav extends Component {
   componentDidMount() {
 
     document.addEventListener('DOMContentLoaded', function() {
-      console.log('M', M)
+      
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems);
     });
     
 
- console.log(M)
+ 
   
   //   var instance = M.Dropdown.init(element);
   
@@ -23,13 +23,7 @@ class Nav extends Component {
 
 
 render(){
-  console.log(M)
-   
-  document.addEventListener('DOMContentLoaded', function() {
-    console.log('M', M)
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems);
-  });
+
   return (
     <div>
     <nav>
