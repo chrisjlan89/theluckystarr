@@ -4,8 +4,8 @@ import Home from "./Components/Home/"
 // import Gallery from "./Components/Gallery";
 import ContactForm from "./Components/ContactForm";
 import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
-import logo from './logo.svg';
+
+
 import './App.css';
 import Cabin from './Components/Cabin';
 import Venue from './Components/Venue';

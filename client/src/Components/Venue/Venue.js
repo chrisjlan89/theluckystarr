@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
 import  GoogleLogin  from 'react-google-login';
-import {AUTH_CONFIG} from '../../Auth/authVars';
+//import {AUTH_CONFIG} from '../../Auth/authVars';
 import MediaQuery from "react-responsive";
 
 import  Gallery  from 'react-grid-gallery';
@@ -392,11 +392,11 @@ import M from 'materialize-css';
         <h2 className="main-title centered"> Celebrate your special day with us</h2>
       </div>
       <div className="col s8 offset-s2">
-        <h5 className= "main-desc"> The Event Venue is approximately 15 acres of land with a 30’ x 60’ pavilion overlooking Echo Lake, 
-        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean to for cooking and serving under cover. 
+        <h5 className= "main-desc">The Event Venue is approximately 15 acres of land with a 30’ x 60’ pavilion overlooking Echo Lake, 
+        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean-to for cooking. 
         The venue can be rented for any occasion: church or corporate picnics, weddings, receptions, class reunions, celestial events, or a charitable cause! 
         Whatever your event is, The Lucky Starr Event Venue can be rented by the hour or event. 
-        Prices start at $250 for non-wedding events and weddings start at $800 for up to 100 people. 
+       
         </h5>
       </div>
   
@@ -420,23 +420,26 @@ import M from 'materialize-css';
       <div className=" col s6">
       <div className="description">
       <p className="paragraph">
-      Power, lights and PA!!! Our stage can be used for a ceremony with or without the use of the PA system. We have the power to have a DJ, acoustic act or a full band! Whatever your budget allows we have an act for your event!
-      </p>
-          <ul className="list">
-             
-              <li className="list__item">Beatiful location overlooking the beautiful lake </li>
-              <li className="list__item">Available for weddings, corporate events and more</li>
-              <li className="list__item">Accomdates up to 100 guests on your special day</li>
-              <li className="list__item">Rates for events start at only $250</li>
-              <li className="list__item">Have the weddding of your dreams starting at only $800</li>
-              
-          </ul>
-          <div className="recommend">
-              <p className="recommend__count">
-              The venue is available for almost any event so please call us Kellady at 
-              (423) 533 - 2802
+      The Lucky Starr would be honored to participate in your special occasion.  We can accommodate any event. Power and lights are available on the stage and in the pavilion. 
+      A PA system can be rented and setup. The stage can be used for a ceremony,  a DJ, an acoustic act or a full band, whatever your budget allows!</p>
+      <ul className="list">
+      <li className="list__item">Beautiful location overlooking Echo lake and the fountain  </li>
+      <li className="list__item">Available for any special location</li>
+      <li className="list__item">Can accommodate large groups</li>
+      <li className="list__item">Rates for non-wedding events start at  $250</li>
+      <li className="list__item">Wedding prices start at $800</li>
+          
+      </ul>
 
-              </p>
+      
+      <div className="recommend">
+          <p className="recommend__count">
+            The venue is seasonal. Call Kellady at 
+            (423) 533 - 2802 for availability or to book an 
+            appointment to view.
+
+
+          </p>
               
           </div>
           </div>
@@ -446,7 +449,7 @@ import M from 'materialize-css';
       <figure className="user-reviews">
          <figure className="venue-review">
               <blockquote className="venue-review__text">
-              I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the escape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
+              I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the landscape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
 
               </blockquote>
               <figcaption className="venue-review__user">
@@ -461,6 +464,7 @@ import M from 'materialize-css';
                   </div>
                   <div className="venue-review__rating">
                   <i className="fas fa-star"> </i>
+                  <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
                   <i className="fas fa-star"></i>
@@ -501,7 +505,7 @@ import M from 'materialize-css';
       </MediaQuery>
 
 
-      <MediaQuery maxDeviceWidth={1224}>
+      <MediaQuery maxDeviceWidth={950}>
 
       <div className = "row">
         <div className="col s12">
@@ -512,10 +516,10 @@ import M from 'materialize-css';
       <div className = "row">
         <div className="col s12">
         <h5 className= "main-desc"> The Event Venue is approximately 15 acres of land with a 30’ x 60’ pavilion overlooking Echo Lake, 
-        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean to for cooking and serving under cover. 
+        two primitive campgrounds, a large grass parking lot, a large covered stage and a lean-to for cooking. 
         The venue can be rented for any occasion: church or corporate picnics, weddings, receptions, class reunions, celestial events, or a charitable cause! 
         Whatever your event is, The Lucky Starr Event Venue can be rented by the hour or event. 
-        Prices start at $250 for non-wedding events and weddings start at $800 for up to 100 people. 
+        
         </h5>
         </div>
         </div>
@@ -539,23 +543,26 @@ import M from 'materialize-css';
       <div className=" col s12">
       <div className="description">
           <p className="paragraph">
-          Power, lights and PA!!! Our stage can be used for a ceremony with or without the use of the PA system. We have the power to have a DJ, acoustic act or a full band! Whatever your budget allows we have an act for your event!
+          The Lucky Starr would be honored to participate in your special occasion.  We can accommodate any event. Power and lights are available on the stage and in the pavilion. 
+          A PA system can be rented and setup. 
+          The stage can be used for a ceremony,  a DJ, an acoustic act or a full band, whatever your budget allows!
           </p>
           
           <ul className="list">
-          <li className="list__item">Beatiful location overlooking the beautiful lake </li>
-          <li className="list__item">Available for weddings, corporate events and more</li>
-          <li className="list__item">Accomdates up to 100 guests on your special day</li>
-          <li className="list__item">Rates for events start at only $250</li>
-          <li className="list__item">Have the weddding of your dreams starting at only $800</li>
+          <li className="list__item">Beautiful location overlooking Echo lake and the fountain  </li>
+          <li className="list__item">Available for any special location</li>
+          <li className="list__item">Can accommodate large groups</li>
+          <li className="list__item">Rates for non-wedding events start at  $250</li>
+          <li className="list__item">Wedding prices start at $800</li>
               
           </ul>
 
           
           <div className="recommend">
               <p className="recommend__count">
-                The venue is available for almost any event so please call us Kellady at 
-                (423) 533 - 2802
+                The venue is seasonal. Call Kellady at 
+                (423) 533 - 2802 for availability or to book an 
+                appointment to view.
 
 
               </p>
@@ -572,7 +579,7 @@ import M from 'materialize-css';
 <div className="col s10 offset-s1">
 <figure className="venue-review">
 <blockquote className="venue-review__text">
-I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the escape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
+I had my daughters wedding and reception there. Corey and Ashley Hart. It's a quiet place and the landscape is breathe taking. Kellady, Mike and staff were amazing, friendly, and helpful in many ways. They made you feel right at home. The place is reasonable and very clean. It's a must see to appreciate the beauty. Thank you Kellady, Mike and staff for making this day so special. Mark and Liz Crum... Your new New Jersey friends. Your the best.
 
 </blockquote>
 <figcaption className="venue-review__user">

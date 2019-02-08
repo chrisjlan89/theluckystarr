@@ -5,7 +5,7 @@ import {AUTH_CONFIG} from '../../Auth/authVars';
 import MediaQuery from "react-responsive";
 // import Auth from '../../Auth/auth';
 import  Gallery  from 'react-grid-gallery';
-import * as otherGallery  from 'react-photo-gallery' ;
+//import * as otherGallery  from 'react-photo-gallery' ;
 import './Cabin.css'
 import 'materialize-css/dist/css/materialize.min.css'
 
@@ -311,7 +311,7 @@ import M from 'materialize-css';
       <div className="col s8 offset-s2">
         <h5 className= "main-desc">Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
 cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
-wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Echo Lake. Our
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked  Lake. Our
 cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
         </h5>
       </div>
@@ -357,7 +357,9 @@ cabin is a great place for a romantic weekend or to spend quality time with your
           </ul>
           <div className="recommend">
               <p className="recommend__count">
-                 Note : Cabins are not included in the base price of weddings or events
+                 Note : Cabin is not included in the base price of weddings or events
+                 <br></br>
+                 Avaialble for rent anytime of year call 423-533-2100 for more information
               </p>
               
           </div>
@@ -443,7 +445,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
     <div className='cabin-desc'>
       <h5>Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
 cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
-wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Echo Lake. Our
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Lake. Our
 cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
       </h5>
       </div>
@@ -497,7 +499,9 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       </ul>
       <div className="recommend">
           <p className="recommend__count">
-             Note : Cabins are not included in the base price of weddings or events
+             Note : Cabin is not included in the base price of weddings or events
+             <br></br>
+                 Avaialble for rent anytime of year call 423-533-2100 for more information
           </p>
           
       </div>
