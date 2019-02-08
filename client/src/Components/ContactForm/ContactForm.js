@@ -143,8 +143,11 @@ class ContactForm extends Component  {
 
    
 
-     clearForm = () => { 
+     clearForm = (event) => { 
        console.log('cleared')
+       this.setState(() => ({first : '', last: '', email : '' , message : '' , selectValue : ''}))
+
+        
       }
      
   handleFormSubmit = (event) => {
@@ -176,6 +179,13 @@ class ContactForm extends Component  {
   };
 
 
+  OnSubmitButton = (event) => {
+    this.handleFormSubmit(event)
+      this.clearForm(event)
+    
+  }
+
+
   
 //  isSelected = () => {
 //    if (this.state.selectValue > 0) {
@@ -205,7 +215,7 @@ class ContactForm extends Component  {
                         <div className="book__form">
 
                         
-                            <form action="#" className="form">
+                            <form  className="form">
                                 <div className="u-margin-bottom-smedium">
                                     <h2 className="heading-secondary">
                                         Send us an Email !
@@ -214,58 +224,9 @@ class ContactForm extends Component  {
 
                                 <div className="form__group u-margin-bottom-medium">
 
-                                <div className=" u-margin-bottom-small">
                                  <h5 className ='inquiry_heading'> What are you inquiring about ? </h5>
-                                </div>
-                                <form className="choice-selection" action="#">
-                                
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue}  
-                                  onChange={this.handleInputChange} 
-                                  value="Rates"
-                                  name="selectValue"  />                                    
-                                   <span>Rates</span>
-                                  </label>
                                 
                                 
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue} 
-                                  onChange={this.handleInputChange}
-                                  value="Events" 
-                                  name="selectValue"  
-                                   />
-                                    <span>Events</span>
-                                  </label>
-                                
-                                
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue} 
-                                  onChange={this.handleInputChange} 
-                                  name="selectValue"  
-                                  value = "Hosting a Chartible Event"
-                                  />
-                                    <span>Charity</span>
-                                  </label>
-                                
-                                
-                                  <label>
-                                    <input 
-                                    type="radio"
-                                    //value={this.state.selectValue} 
-                                    onChange={this.handleInputChange} 
-                                     name="selectValue" 
-                                     value = "General Question"
-                                     />
-                                    <span>Other</span>
-                                  </label>
-                                
-                              </form>
                             </div>
 
                                   <div className ="input-field">
@@ -340,15 +301,61 @@ class ContactForm extends Component  {
                               
 
                             <div className="form__group">
-                                    <div className="form__radio-group">
-                                        
-                                    </div>
+                            <form className="choice-selection">
+                                
+                            <label>
+                            <input 
+                            type="radio"
+                            //value={this.state.selectValue}  
+                            onChange={this.handleInputChange} 
+                            value="Rates"
+                            name="selectValue"  />                                    
+                             <span>Rates</span>
+                            </label>
+                          
+                          
+                            <label>
+                            <input 
+                            type="radio"
+                            //value={this.state.selectValue} 
+                            onChange={this.handleInputChange}
+                            value="Events" 
+                            name="selectValue"  
+                             />
+                              <span>Events</span>
+                            </label>
+                          
+                          
+                            <label>
+                            <input 
+                            type="radio"
+                            //value={this.state.selectValue} 
+                            onChange={this.handleInputChange} 
+                            name="selectValue"  
+                            value = "Hosting a Chartible Event"
+                            />
+                              <span>Charity</span>
+                            </label>
+                          
+                          
+                            <label>
+                              <input 
+                              type="radio"
+                              //value={this.state.selectValue} 
+                              onChange={this.handleInputChange} 
+                               name="selectValue" 
+                               value = "General Question"
+                               />
+                              <span>Other</span>
+                            </label>
+                          
+                        </form>
 
 
                                     
                                     {this.state.selectValue  && this.state.email ?
                                       <button 
-                                      onClick ={this.handleFormSubmit}
+                                      onClick ={this.OnSubmitButton}
                                       className="btn btn--green" 
                                       //data-target="modal1" 
                                      // class="btn modal-trigger"
@@ -442,55 +449,7 @@ class ContactForm extends Component  {
                                 <div className=" u-margin-bottom-small">
                                  <h5 className ='inquiry_heading'> What are you inquiring about ? </h5>
                                 </div>
-                                <form action="#">
-                                
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue}  
-                                  onChange={this.handleInputChange} 
-                                  value="Rates"
-                                  name="selectValue"  />                                    
-                                   <span>Rates</span>
-                                  </label>
-                                
-                                
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue} 
-                                  onChange={this.handleInputChange}
-                                  value="Events" 
-                                  name="selectValue"  
-                                   />
-                                    <span>Events</span>
-                                  </label>
-                                
-                                
-                                  <label>
-                                  <input 
-                                  type="radio"
-                                  //value={this.state.selectValue} 
-                                  onChange={this.handleInputChange} 
-                                  name="selectValue"  
-                                  value = "Hosting a Chartible Event"
-                                  />
-                                    <span>Charity</span>
-                                  </label>
-                                
-                                
-                                  <label>
-                                    <input 
-                                    type="radio"
-                                    //value={this.state.selectValue} 
-                                    onChange={this.handleInputChange} 
-                                     name="selectValue" 
-                                     value = "General Question"
-                                     />
-                                    <span>Other</span>
-                                  </label>
-                                
-                              </form>
+                               
                             </div>
 
                                   
@@ -556,17 +515,64 @@ class ContactForm extends Component  {
 
 
 
+                                <form>
+                                
+                                <label>
+                                <input 
+                                type="radio"
+                                //value={this.state.selectValue}  
+                                onChange={this.handleInputChange} 
+                                value="Rates"
+                                name="selectValue"  />                                    
+                                 <span>Rates</span>
+                                </label>
                               
+                              
+                                <label>
+                                <input 
+                                type="radio"
+                                //value={this.state.selectValue} 
+                                onChange={this.handleInputChange}
+                                value="Events" 
+                                name="selectValue"  
+                                 />
+                                  <span>Events</span>
+                                </label>
+                              
+                              
+                                <label>
+                                <input 
+                                type="radio"
+                                //value={this.state.selectValue} 
+                                onChange={this.handleInputChange} 
+                                name="selectValue"  
+                                value = "Hosting a Chartible Event"
+                                />
+                                  <span>Charity</span>
+                                </label>
+                              
+                              
+                                <label>
+                                  <input 
+                                  type="radio"
+                                  //value={this.state.selectValue} 
+                                  onChange={this.handleInputChange} 
+                                   name="selectValue" 
+                                   value = "General Question"
+                                   />
+                                  <span>Other</span>
+                                </label>
+                              
+                            </form>
 
                             <div className="form__group">
-                                    <div className="form__radio-group">
-                                        
-                                    </div>
+                                    
 
 
                                     {this.state.selectValue  && this.state.email ?
                                     <button 
-                                    onClick ={this.handleFormSubmit}
+                                    onClick ={this.OnSubmitButton}
+
                                    className="btn btn--green" 
                                     data-target="modal1" 
                                    className="btn modal-trigger"

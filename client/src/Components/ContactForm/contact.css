@@ -78,6 +78,7 @@ body {
 
 .choice-selection{
     margin-left: 5%;
+    margin-bottom: 1.6%;
 }
 
 
@@ -271,6 +272,12 @@ input, textarea, select, button {
 .form__radio-group {
     width: 20%;
 
+}
+
+
+.choice-selection{
+    margin-left: 5%;
+    margin-bottom: 1.2%;
 }
 
 
