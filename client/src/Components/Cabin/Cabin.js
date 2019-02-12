@@ -309,9 +309,9 @@ import M from 'materialize-css';
         <h3 className="sub-title centered">  Relax in our beautiful and rustic Cabin</h3>
       </div>
       <div className="col s8 offset-s2">
-        <h5 className= "main-desc">Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
+        <h5 className= "main-desc">Overlooking Echo lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
 cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
-wildlife while swinging on the front porch, or grab your pole and fish in our well stocked  Lake. Our
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked  lake. Our
 cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
         </h5>
       </div>
@@ -342,7 +342,8 @@ cabin is a great place for a romantic weekend or to spend quality time with your
          
           </p>
           <p className="paragraph">
-          The cabin can be rented as a whole or each unit separately. It is available for rent now, but please call 423-533-2100 to check availability and for more information. 
+          The cabin can be rented as a whole or each unit separately.
+          Available for rent anytime of year call  Starr at 423-533-2100 for more information. 
           A small security deposit is required. Pets are allowed for an additional fee. Sorry, at this time we cannot take credit cards.
           </p>
           <ul className="list">
@@ -358,8 +359,8 @@ cabin is a great place for a romantic weekend or to spend quality time with your
           <div className="recommend">
               <p className="recommend__count">
                  Note : Cabin is not included in the base price of weddings or events
-                 <br></br>
-                 Avaialble for rent anytime of year call 423-533-2100 for more information
+               
+                 
               </p>
               
           </div>
@@ -443,9 +444,9 @@ cabin is a great place for a romantic weekend or to spend quality time with your
   <div className = "row">
     <div className="col s12 ">
     <div className='cabin-desc'>
-      <h5>Overlooking Echo Lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
+      <h5>Overlooking Echo lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
 cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
-wildlife while swinging on the front porch, or grab your pole and fish in our well stocked Lake. Our
+wildlife while swinging on the front porch, or grab your pole and fish in our well stocked lake. Our
 cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
       </h5>
       </div>
@@ -481,8 +482,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       </p>
       <p className="paragraph">
       The cabin can be rented as a whole or each unit separately. 
-      It is available for rent now, but please call 423-533-2100 
-      to check availability and for more information. 
+       Available for rent anytime of year call  Starr at 423-533-2100 for more information
       A small security deposit is required. 
       Pets are allowed for an additional fee. 
       Sorry, at this time we cannot take credit cards.
@@ -500,8 +500,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       <div className="recommend">
           <p className="recommend__count">
              Note : Cabin is not included in the base price of weddings or events
-             <br></br>
-                 Avaialble for rent anytime of year call 423-533-2100 for more information
+            
           </p>
           
       </div>
