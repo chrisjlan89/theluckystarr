@@ -352,11 +352,11 @@ class ContactForm extends Component  {
                         </form>
 
 
-                                    
+                        <div className = 'button-container'>       
                                     {this.state.selectValue  && this.state.email ?
                                       <button 
                                       onClick ={this.OnSubmitButton}
-                                      className="btn btn--green" 
+                                      className="btn custom-btn" 
                                       //data-target="modal1" 
                                      // class="btn modal-trigger"
                                       >
@@ -364,6 +364,7 @@ class ContactForm extends Component  {
                                     :
                                     'Please Fill out the entire form to Submit'
                                       }
+                                      </div>
                                 </div>
                             </form>
                         </div>
@@ -568,19 +569,23 @@ class ContactForm extends Component  {
                             <div className="form__group">
                                     
 
-
+                            <div className = 'button-container'>
                                     {this.state.selectValue  && this.state.email ?
+                                 
                                     <button 
                                     onClick ={this.OnSubmitButton}
 
-                                   className="btn btn--green" 
+                                   className="btn custom-btn" 
                                     data-target="modal1" 
-                                   className="btn modal-trigger"
+                                   
                                     >
                                    Submit </button>
+                                  
                                   :
                                   'Please Fill out the entire form to Submit'
+
                                     }
+                                    </div>
                                 </div>
                             </form>
                         </div>

@@ -199,6 +199,21 @@ input, textarea, select, button {
     padding-right: 1.5rem;
     
 }
+.button-container {
+    padding : 1rem;
+    margin-left : 5%;
+}
+
+.custom-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    letter-spacing: .24rem;
+    font-size : 1.2rem;
+    width : 25%;
+    
+    background : linear-gradient( to right bottom rgba(0,0,0,0.2), rgb(110, 24, 167)  rgb(90, 7, 145), rgba(77, 1, 128, 0.589));
+  
+}
 
 .map-area{
     float: left;
@@ -251,6 +266,23 @@ input, textarea, select, button {
     text-align: center;
     margin-right: 3%;
     padding-right: 2%;
+}
+
+.button-container {
+    padding : 1rem;
+    margin-left :23%;
+}
+
+
+.custom-btn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    letter-spacing: .24rem;
+    font-size : 1.2rem;
+    width : 59%;
+    
+    background : linear-gradient( to right bottom rgba(0,0,0,0.2), rgb(110, 24, 167)  rgb(90, 7, 145), rgba(77, 1, 128, 0.589));
+  
 }
 
 .section-faq {
