@@ -248,7 +248,7 @@ import M from 'materialize-css';
  class Cabin extends Component {
   componentDidMount() {
     
-    console.log('I was triggered during componentDidMount')
+    //console.log('I was triggered during componentDidMount')
    
 //var instances = M.Materialbox.init(elems, options);
 
