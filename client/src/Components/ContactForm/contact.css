@@ -280,7 +280,7 @@ input, textarea, select, button {
     letter-spacing: .24rem;
     font-size : 1.2rem;
     width : 59%;
-    
+    border-radius: 50%;
     background : linear-gradient( to right bottom rgba(0,0,0,0.2), rgb(110, 24, 167)  rgb(90, 7, 145), rgba(77, 1, 128, 0.589));
   
 }

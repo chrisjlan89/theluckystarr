@@ -102,6 +102,18 @@ import M from 'materialize-css';
 
    
   },
+  
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin6a.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin6a.jpg",
+     className: "materialboxed",
+     thumbnailWidth: 320,
+         thumbnailHeight: 174,
+        
+         caption: ""
+ 
+   },
+  
   {
    src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin6.jpg",
    thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin6.jpg",
@@ -132,6 +144,19 @@ import M from 'materialize-css';
       thumbnailHeight: 174,
      
       caption: "One full bath with a shower."
+
+},
+
+
+{
+  src: process.env.PUBLIC_URL + "/assets/img/cabin/cabin10a.jpg",
+  thumbnail : process.env.PUBLIC_URL + "/assets/img/cabin/cabin10a.jpg",
+  
+  className: "object-fit-util",
+  thumbnailWidth: 320,
+      thumbnailHeight: 174,
+     
+      caption: ""
 
 },
 
@@ -193,7 +218,7 @@ import M from 'materialize-css';
   thumbnailWidth: 320,
       thumbnailHeight: 174,
      
-      caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
+      caption: ""
 
 },
 
@@ -205,7 +230,7 @@ import M from 'materialize-css';
   thumbnailWidth: 1050,
       thumbnailHeight: 900,
      
-      caption: "Full kitchen with: refrigerator, gas stove, coffee pot, microwave, pots & pans, dishes and silverware. Table seats 4-6"
+      caption: "The beautiful view overlooking Echo Lake."
 
 }
 
@@ -311,8 +336,8 @@ import M from 'materialize-css';
       <div className="col s8 offset-s2">
         <h5 className= "main-desc">Overlooking Echo lake, with abundant wildlife surrounding you, enjoy the peace and quiet of our cozy
 cabin in the woods any time of year! Unplug and unwind while you sit and read a book, watch the
-wildlife while swinging on the front porch, or grab your pole and fish in our well stocked  lake. Our
-cabin is a great place for a romantic weekend or to spend quality time with your loved ones!
+wildlife while swinging on the front porch.  Grab your pole and fish in our well stocked  lake. Our
+cabin is a great place for a romantic weekend or to spend quality time with your whole family!
         </h5>
       </div>
   
@@ -347,7 +372,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
           A small security deposit is required. Pets are allowed for an additional fee. Sorry, at this time we cannot take credit cards.
           </p>
           <ul className="list">
-              <li className="list__item">Downstairs unit rents for $100 for 2 guests per</li>
+              <li className="list__item">Downstairs unit rents for $100 for 2 guests per night</li>
               <li className="list__item">Upstairs unit rents for $125 per night</li>
               <li className="list__item">Each rental includes $25 Cleaning fee</li>
              
@@ -490,7 +515,7 @@ cabin is a great place for a romantic weekend or to spend quality time with your
       <ul className="list">
           
           <li className="list__item">Upstairs unit rents for $125 for 2 guest</li>
-          <li className="list__item">Downstairs unit rents for $100 for 2 guests</li>
+          <li className="list__item">Downstairs unit rents for $100 for 2 guests per night</li>
           <li className="list__item">Each rental includes $25 Cleaning fee</li>
           <li className="list__item">Each additional guest is $15 per night</li>
           <li className="list__item">Pets allowed for one time $40 fee</li>

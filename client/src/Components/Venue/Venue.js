@@ -68,6 +68,18 @@ import M from 'materialize-css';
   ];
 
  const IMAGES = [
+
+  {
+    
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
+    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
+    className: "materialboxed",
+    isSelected : false,
+    thumbnailWidth: 320,
+        thumbnailHeight: 174,
+       
+       
+  },
   
    {
    
@@ -102,17 +114,17 @@ import M from 'materialize-css';
 
 
 
-   {
-     src: process.env.PUBLIC_URL + "/assets/img/venue/venue5.jpg",
-     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue5.jpg",
-     className: "materialboxed",
-     thumbnailWidth: 320,
-         thumbnailHeight: 174,
+  //  {
+  //    src: process.env.PUBLIC_URL + "/assets/img/venue/venue5.jpg",
+  //    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue5.jpg",
+  //    className: "materialboxed",
+  //    thumbnailWidth: 320,
+  //        thumbnailHeight: 174,
        
         
 
     
-   },
+  //  },
    {
     src: process.env.PUBLIC_URL + "/assets/img/venue/venue6.jpg",
     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue6.jpg",
@@ -179,39 +191,18 @@ import M from 'materialize-css';
 
 
 
-  {
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue12.jpg",
-     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue12.jpg",
-    className: "materialboxed",
-    thumbnailWidth: 320,
-        thumbnailHeight: 174,
-      
-       
-
-   
-  },
-  {
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue13.jpg",
-    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue13.jpg",
-    className: "materialboxed",
-    thumbnailWidth: 320,
-        thumbnailHeight: 174,
+  // {
+  //   src: process.env.PUBLIC_URL + "/assets/img/venue/venue13.jpg",
+  //   thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue13.jpg",
+  //   className: "materialboxed",
+  //   thumbnailWidth: 320,
+  //       thumbnailHeight: 174,
        
        
 
-  },
+  // },
   
-  {
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue14.jpg",
-     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue14.jpg",
-   className: "materialboxed",
-   thumbnailWidth: 320,
-       thumbnailHeight: 174,
-      
-      
-
- },
-
+ 
 
  {
     
@@ -253,17 +244,7 @@ import M from 'materialize-css';
      
        
   },
-  {
-    
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
-    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue1.jpg",
-    className: "materialboxed",
-    isSelected : false,
-    thumbnailWidth: 320,
-        thumbnailHeight: 174,
-       
-       
-  },
+ 
 
   {
     
@@ -277,29 +258,54 @@ import M from 'materialize-css';
        
   },
 
-  {
+  // {
     
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
-    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
+  //   src: process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
+  //   thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue20.jpg",
+  //   className: "materialboxed",
+  //   isSelected : false,
+  //   thumbnailWidth: 320,
+  //       thumbnailHeight: 174,
+       
+       
+  // },
+
+  // {
+    
+  //   src: process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
+  //   thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
+  //   className: "materialboxed",
+  //   isSelected : false,
+  //   thumbnailWidth: 240,
+  //       thumbnailHeight: 174,
+       
+       
+  // },
+
+  
+  {
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue12.jpg",
+     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue12.jpg",
     className: "materialboxed",
-    isSelected : false,
     thumbnailWidth: 320,
         thumbnailHeight: 174,
+      
        
-       
+
+   
   },
 
   {
-    
-    src: process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
-    thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue21.jpg",
-    className: "materialboxed",
-    isSelected : false,
-    thumbnailWidth: 240,
-        thumbnailHeight: 174,
-       
-       
-  }
+    src: process.env.PUBLIC_URL + "/assets/img/venue/venue14.jpg",
+     thumbnail : process.env.PUBLIC_URL + "/assets/img/venue/venue14.jpg",
+   className: "materialboxed",
+   thumbnailWidth: 320,
+       thumbnailHeight: 174,
+      
+      
+
+ },
+
  
  
 
@@ -424,7 +430,7 @@ import M from 'materialize-css';
       A PA system can be rented and setup. The stage can be used for a ceremony,  a DJ, an acoustic act or a full band, whatever your budget allows!</p>
       <ul className="list">
       <li className="list__item">Beautiful location overlooking Echo lake and the fountain  </li>
-      <li className="list__item">Available for any special location</li>
+      <li className="list__item">Available for any special occasion</li>
       <li className="list__item">Can accommodate large groups</li>
       <li className="list__item">Rates for non-wedding events start at  $250</li>
       <li className="list__item">Wedding prices start at $800</li>
@@ -550,7 +556,7 @@ import M from 'materialize-css';
           
           <ul className="list">
           <li className="list__item">Beautiful location overlooking Echo lake and the fountain  </li>
-          <li className="list__item">Available for any special location</li>
+          <li className="list__item">Available for any special occasion</li>
           <li className="list__item">Can accommodate large groups</li>
           <li className="list__item">Rates for non-wedding events start at  $250</li>
           <li className="list__item">Wedding prices start at $800</li>
