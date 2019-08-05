@@ -72,6 +72,10 @@ router.post('/api/send', (req, res) => {
     })
   })
 
+  router.get('/.well-known/acme-challenge/ApIQ5ky84WIzJ_HjM2zXFzt8oftHGoA-bedIhwzsuIU', (req,res) => {
+    res.send('ApIQ5ky84WIzJ_HjM2zXFzt8oftHGoA-bedIhwzsuIU.yLvWkdxpz-Axdd5VIn-f_qyxZ-6kzb-_meBqf5c4Xog')
+  })
+
 
 module.exports = router;
 //   router.route('/api/send')
