@@ -25,7 +25,7 @@
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
     "unfetch": "^3.0.0",
-    "validator": "^10.11.0"
+    "validator": "^13.7.0"
   },
   "proxy": "http://localhost:8081",
   "scripts": {
